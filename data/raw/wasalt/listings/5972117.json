@@ -1,0 +1,301 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-32558-sqm-with-2-bedrooms-5972117",
+ "scraped_at": "2026-11-18T14:52:22+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 100,
+  "isApproxLocation": false,
+  "videoUrl": [
+   {
+    "sequence": 1,
+    "thumbnail": "https://assets.wasalt.com/properties/5972117/images/8723ddf7-ce20-4d56-b988-f752ffb254a6_thumbnail.jpg",
+    "name": "https://cdn.wasalt.com/production/properties/446806/videos/8723ddf7-ce20-4d56-b988-f752ffb254a6.MP4",
+    "type": "manual-video"
+   }
+  ],
+  "reservation": null,
+  "id": 5972117,
+  "updatedAt": "2026-11-17T11:24:31.181Z",
+  "publishedAt": "2026-11-17T09:52:34.546Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "قطعة الارض  رقم 11 من البلك رقم  2813   من المخطط رقم  بدون الارشادى بالثقبة  بمدينة الخبر .",
+  "streetInfo": {},
+  "fullDarReference": "737501-SAU-RE-339372",
+  "propIdentityTypeId": 95,
+  "darReference": "339372",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.20279977581372",
+   "lat": "26.275121517934426"
+  },
+  "monthlyRentEMI": 358,
+  "rizeMonthlyRentEMI": 347.75,
+  "ejariMonthlyRentEMI": 0,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 367,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 2,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "325.58",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Khobar Al Jnubyah, Khobar",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 253341,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-al-khobar-al-khubar-al-janubiyah",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Khobar",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=332&property_types=39&propertyTypeData=apartment",
+     "id": 253340,
+     "title": "Apartments for Rent in Khobar",
+     "type": "text",
+     "slug": "apartments-for-rent-in-al-khobar-al-khubar-al-janubiyah",
+     "url": "apartments-for-rent-in-khobar"
+    },
+    {
+     "subtitle": "Al Khobar Al Jnubyah",
+     "reference_url": null,
+     "id": 253339,
+     "title": "Apartments for Rent in Al Khubar Al Janubiyah",
+     "type": "text",
+     "slug": "apartments-for-rent-in-al-khobar-al-khubar-al-janubiyah",
+     "url": "apartments-for-rent-in-al-khobar-al-khubar-al-janubiyah"
+    }
+   ],
+   "city": "Khobar",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\n\nApartment for Rent in Al Khobar Al Jnubyah, Khobar</p><p>Built up Area: 325.58 SQM</p><p>The property has 2 bedrooms</p><p>Apartment has electricity and water Connections</p><p>Building year: 2026</p><p>Price: 3900 SAR</p>",
+   "title": "Apartment 325.58 SQM with 2 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Khobar Al Jnubyah",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-32558-sqm-with-2-bedrooms-5972117",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 3900,
+   "conversionPrice": 3900,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3332,
+   "districtId": 3332,
+   "district": "Al Khobar Al Jnubyah",
+   "cityId": 332,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-32558-متر-مربع-بغرفتين-5972117",
+   "rentFreq": {
+    "monthly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 3900,
+     "arCurrencyType": "ر.س",
+     "freq": "monthly"
+    },
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": false,
+     "amount": 3900,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "لايوجد",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "التاسع عشر"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "بدون الارشادى بالثقبة"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "11"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لايوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "34621"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "16/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "7810"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "4720"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "لايوجد",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 1 day ago",
+  "views": {
+   "count": 87,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

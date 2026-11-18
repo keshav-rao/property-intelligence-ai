@@ -1,0 +1,306 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/apartment-5910124",
+ "scraped_at": "2026-11-18T14:50:35+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 100,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5910124,
+  "updatedAt": "2026-11-15T04:17:48.939Z",
+  "publishedAt": "2026-09-21T08:59:05.800Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي مخطط المسفلة رقم 4 بمدينة مكة المكرمة  مساحة الوحدة من الأرض 45.39 متر   وتختص من المنافع والأجزاء المشتركة بمساحة 118.5 متر ",
+  "streetInfo": {
+   "streetWidth": null
+  },
+  "fullDarReference": "593607-SAU-BU-739619",
+  "propIdentityTypeId": 95,
+  "darReference": "739619",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.81293431562845",
+   "lat": "21.37339766945589"
+  },
+  "attributes": [
+   {
+    "key": "noOfBathrooms",
+    "name": "Bathrooms",
+    "value": 3,
+    "image": "noofbathrooms.png",
+    "iconClass": "bathroom"
+   },
+   {
+    "key": "noOfLivingrooms",
+    "name": "Living Rooms",
+    "value": 2,
+    "image": "nooflivingrooms.png",
+    "iconClass": "apartment"
+   },
+   {
+    "key": "noOfGuestrooms",
+    "name": "Guest Rooms",
+    "value": 2,
+    "image": "noofguestrooms.png",
+    "iconClass": "guest-room"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "137",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Alkaakia, Makkah Al Mukarramah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 15190,
+     "title": "Apartments for Sale in Saudi",
+     "type": "link",
+     "slug": "apartments-for-sale-in-makkah-al-kakiyah",
+     "url": "apartments-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Makkah Al Mukarramah",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=275",
+     "id": 15191,
+     "title": "Apartments for Sale in Makkah",
+     "type": "link",
+     "slug": "apartments-for-sale-in-makkah-al-kakiyah",
+     "url": "apartments-for-sale-in-makkah"
+    },
+    {
+     "subtitle": "Alkaakia",
+     "reference_url": null,
+     "id": 15192,
+     "title": "Apartments for Sale in Al Kakiyah",
+     "type": "text",
+     "slug": "apartments-for-sale-in-makkah-al-kakiyah",
+     "url": "apartments-for-sale-in-makkah-al-kakiyah"
+    }
+   ],
+   "city": "Makkah Al Mukarramah",
+   "propertySubType": "Apartment",
+   "furnishingType": "Un-Furnished",
+   "facingType": null,
+   "description": "<p>Un-Furnished\n\nApartment for Sale in Alkaakia, Makkah Al Mukarramah</p><p>Built up Area: 137 SQM</p><p>Property Floor : 3</p><p> Apartment is located on  1 street</p><p>The property has 5 floors, 3 bathrooms, 2 living rooms, 2 guest rooms</p><p>Apartment has electricity and water Connections</p><p>Building year: 2026</p><p>Apartment is: Un-Furnished</p><p>Property amenities:</p><p>&nbsp; - &nbsp; Mosque</p><p>&nbsp; - &nbsp; Retail Outlet</p><p>&nbsp; - &nbsp; Sea View</p><p>&nbsp; - &nbsp; Indoor Parking</p><p>&nbsp; - &nbsp; 2 Separate Entrances</p><p>&nbsp; - &nbsp; Walk-in Closet</p><p>Property fixtures:</p><p>&nbsp; - &nbsp; Double Glazed Windows</p><p>&nbsp; - &nbsp; Ceramic Flooring</p><p>&nbsp; - &nbsp; Gypsum Board Decoration</p><p>&nbsp; - &nbsp; Elevator</p><p>Price: 580000 SAR</p>",
+   "title": "Apartment",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Alkaakia",
+   "propertyName": "Apartment for Sale",
+   "slug": "apartment-5910124",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    },
+    {
+     "name": "Un-Furnished"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 580000,
+   "expectedRent": "",
+   "conversionPrice": 580000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2327,
+   "districtId": 2327,
+   "district": "Alkaakia",
+   "cityId": 275,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-5910124",
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "3 سنوات سباكة وكهرباء\n10 سنوات علي الهيكل ",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "East"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "احمد بن خلف الانصاري"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "1 / 7 / 67 / أ"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "124"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "اتحاد ملاك \nصيانة \n"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "24352"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "10/09/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "3060"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "7367"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "noOfFloors",
+    "label": "Total Floors",
+    "value": 5
+   },
+   {
+    "key": "floorNumber",
+    "label": "Property Floor",
+    "value": 3
+   },
+   {
+    "key": "furnishingType",
+    "label": "Furniture",
+    "value": "Un-Furnished"
+   },
+   {
+    "key": "noOfParkings",
+    "label": "Number of Parkings",
+    "value": 1
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "3 سنوات سباكة وكهرباء\n10 سنوات علي الهيكل ",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 3 days ago",
+  "views": {
+   "count": 35,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

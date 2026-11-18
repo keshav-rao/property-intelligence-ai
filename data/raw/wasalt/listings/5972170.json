@@ -1,0 +1,317 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/furnished-apartment-60-sqm-with-1-bedroom-5972170",
+ "scraped_at": "2026-11-18T14:49:25+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 94,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5972170,
+  "updatedAt": "2026-11-17T14:17:30.007Z",
+  "publishedAt": "2026-11-17T14:13:12.324Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "",
+  "streetInfo": {},
+  "fullDarReference": "770350-SAU-RE-328093",
+  "propIdentityTypeId": 95,
+  "darReference": "328093",
+  "compoundDetails": {},
+  "location": {
+   "lon": "46.633777931100745",
+   "lat": "24.81373533413402"
+  },
+  "monthlyRentEMI": 4583,
+  "rizeMonthlyRentEMI": 4458.33,
+  "ejariMonthlyRentEMI": 4541.67,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 4708,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedroom",
+    "value": 1,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "noOfBathrooms",
+    "name": "Bathroom",
+    "value": 1,
+    "image": "noofbathrooms.png",
+    "iconClass": "bathroom"
+   },
+   {
+    "key": "noOfLivingrooms",
+    "name": "Living Room",
+    "value": 1,
+    "image": "nooflivingrooms.png",
+    "iconClass": "apartment"
+   },
+   {
+    "key": "furnishingType",
+    "name": "Furniture",
+    "value": "Furnished",
+    "image": "furnishingtype.png",
+    "iconClass": "furniture"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "60",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "As-Sahafa, North Riyadh, Riyadh",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&furnishingTypeId=5",
+     "id": 286344,
+     "title": "Furnished Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-sahafah",
+     "url": "furnished-apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Riyadh",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=273&property_types=39&propertyTypeData=apartment&furnishingTypeId=5",
+     "id": 286343,
+     "title": "Furnished Apartments for Rent in Riyadh",
+     "type": "link",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-sahafah",
+     "url": "furnished-apartments-for-rent-in-riyadh"
+    },
+    {
+     "subtitle": "North Riyadh",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=273&zoneId=5&property_types=39&propertyTypeData=apartment&furnishingTypeId=5",
+     "id": 286342,
+     "title": "Furnished Apartments for Rent in North Riyadh",
+     "type": "link",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-sahafah",
+     "url": "furnished-apartments-for-rent-in-north-riyadh"
+    },
+    {
+     "subtitle": "As-Sahafa",
+     "reference_url": null,
+     "id": 286341,
+     "title": "Furnished Apartments for Rent in Al Sahafah",
+     "type": "text",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-sahafah",
+     "url": "furnished-apartments-for-rent-in-north-riyadh-al-sahafah"
+    }
+   ],
+   "city": "Riyadh",
+   "propertySubType": "Apartment",
+   "furnishingType": "Furnished",
+   "facingType": null,
+   "description": "<div>وحدات سكنية مؤثثة للإيجار في حي الصافة</div><div>المتوفر: شقة مؤثثة &nbsp;غرفة وصالة</div><div>الايجار: 4500 شهرياً</div><div>&nbsp;يوجد مطبخ - غسالة أوتوماتيك - فرن كهربائي</div><div>الموقع مميز</div><div>شامل الكهرباء والماء والإنترنت&nbsp;</div><div>التواصل: 0539121000(عبدالله)&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0552651000(عبدالمجيد)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0538241000 (أسامه)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0538451000 ( عبدالعزيز) &nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0556831000 ( نايف)</div><div>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>شركة ألف العقارية</div><div>خدماتنا: تسويق - إدارة أملاك - كتابة عقود الكترونية</div><div>أوقات العمل: من السبت إلى الخميس يوم الجمعة إجازة</div><div><br></div><div>من 3 عصراً إلى 10 مساء</div>",
+   "title": "Furnished Apartment 60 SQM with 1 Bedroom",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "As-Sahafa",
+   "propertyName": "Apartment for Rent",
+   "slug": "furnished-apartment-60-sqm-with-1-bedroom-5972170",
+   "territory": "North Riyadh",
+   "tags": [
+    {
+     "name": "For Rent"
+    },
+    {
+     "name": "Furnished"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 50000,
+   "conversionPrice": 50000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2095,
+   "districtId": 2095,
+   "district": "As-Sahafa",
+   "cityId": 273,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-مفروشة-60-متر-مربع-بغرفة-5972170",
+   "rentFreq": {
+    "monthly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 4500,
+     "arCurrencyType": "ر.س",
+     "freq": "monthly"
+    },
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": false,
+     "amount": 50000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "5 years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "الأمير عبدالله بن سعود بن عبدالله صنيت"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "13321"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "17/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "3129"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "8218"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 1 day ago",
+  "views": {
+   "count": 39,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

@@ -1,0 +1,286 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/villa-31011-sqm-facing-south-with-5-bedrooms-5968629",
+ "scraped_at": "2026-11-18T14:52:07+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5968629,
+  "updatedAt": "2026-11-12T10:35:57.274Z",
+  "publishedAt": "2026-11-12T09:39:45.121Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "قطعة الارض  رقم 695 / 2 من البلك رقم  60   المجاورة الثانية   من المخطط رقم  ش د 1450   السيف  بمدينة الدمام .",
+  "streetInfo": {
+   "streetWidth": 18
+  },
+  "fullDarReference": "30480-SAU-RE-465326",
+  "propIdentityTypeId": 95,
+  "darReference": "465326",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.2170827424527",
+   "lat": "26.395655738305422"
+  },
+  "monthlyRentEMI": 13750,
+  "rizeMonthlyRentEMI": 13375,
+  "ejariMonthlyRentEMI": 13625,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 14125,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 5,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Seef, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=41&propertyTypeData=villa-townhouse",
+     "id": 223737,
+     "title": "Villas for Rent in Saudi",
+     "type": "link",
+     "slug": "villas-for-rent-in-dammam-as-saif",
+     "url": "villas-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=328&property_types=41&propertyTypeData=villa-townhouse",
+     "id": 223736,
+     "title": "Villas for Rent in Dammam",
+     "type": "text",
+     "slug": "villas-for-rent-in-dammam-as-saif",
+     "url": "villas-for-rent-in-dammam"
+    },
+    {
+     "subtitle": "Al Seef",
+     "reference_url": null,
+     "id": 223735,
+     "title": "Villas for Rent in As Saif",
+     "type": "text",
+     "slug": "villas-for-rent-in-dammam-as-saif",
+     "url": "villas-for-rent-in-dammam-as-saif"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Villa",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>Villa for Rent in Al Seef, Aldammam</p><p>Land Area: 310.11 SQM</p><p> Villa is located on  1 street, South with 18 m width</p><p>The property has 5 bedrooms</p><p>Villa has electricity Connections</p><p>Building year: 2026</p><p>Price: 150000 SAR</p>",
+   "title": "Villa 310.11 SQM Facing South with 5 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Seef",
+   "propertyName": "Villa for Rent",
+   "slug": "villa-31011-sqm-facing-south-with-5-bedrooms-5968629",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 150000,
+   "conversionPrice": 150000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3257,
+   "districtId": 3257,
+   "district": "Al Seef",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "villa-townhouse",
+   "alternateSlug": "فيلا-31011-متر-مربع-واجهة-جنوبية-ب-5-غرف-5968629",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 150000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "1 year"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "18 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "191 السيف"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "عقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "ش د 1450"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "695 / 2"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لايوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "34213"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "09/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "8257"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "4768"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "No"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 6 days ago",
+  "views": {
+   "count": 90,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

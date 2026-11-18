@@ -1,0 +1,264 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/building-400-sqm-facing-south-5934617",
+ "scraped_at": "2026-11-18T14:49:34+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 100,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5934617,
+  "updatedAt": "2026-11-17T13:48:32.662Z",
+  "publishedAt": "2026-10-05T12:48:20.535Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  الصفا  بمدينة جدة .",
+  "streetInfo": {
+   "streetWidth": 12
+  },
+  "fullDarReference": "119864-SAU-BU-080160",
+  "propIdentityTypeId": 95,
+  "darReference": "080160",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.213032439526344",
+   "lat": "21.56787552404128"
+  },
+  "attributes": [
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "400",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Safa, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=47&propertyTypeData=building",
+     "id": 39895,
+     "title": "Buildings for Sale in Saudi",
+     "type": "link",
+     "slug": "buildings-for-sale-in-jeddah-as-safa",
+     "url": "buildings-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "sale/search?type=residential&countryId=1&cityId=274&property_types=47&propertyTypeData=building",
+     "id": 39894,
+     "title": "Buildings for Sale in Jeddah",
+     "type": "link",
+     "slug": "buildings-for-sale-in-jeddah-as-safa",
+     "url": "buildings-for-sale-in-jeddah"
+    },
+    {
+     "subtitle": "Al Safa",
+     "reference_url": null,
+     "id": 39893,
+     "title": "Buildings for Sale in As Safa",
+     "type": "text",
+     "slug": "buildings-for-sale-in-jeddah-as-safa",
+     "url": "buildings-for-sale-in-jeddah-as-safa"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Building",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "رسوم الاعلان والوساطة والضريبة يدفعها المشتري فقط .. وليس على البائع اي مطالبة مالية",
+   "title": "Building 400 SQM Facing South",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Safa",
+   "propertyName": "Building for Sale",
+   "slug": "building-400-sqm-facing-south-5934617",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 3500000,
+   "expectedRent": "",
+   "conversionPrice": 3500000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2225,
+   "districtId": 2225,
+   "district": "Al Safa",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "building",
+   "alternateSlug": "عمارة-400-متر-مربع-واجهة-جنوبية-5934617",
+   "averageSalePricePerSqm": 8750,
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "10+ years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South East"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "12 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "الناشئ الأكبر"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "8"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "285"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23453"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "05/10/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "6633"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "3506"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated Few Hours ago",
+  "views": {
+   "count": 110,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

@@ -1,0 +1,267 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/apartment-2479-sqm-with-6-bedrooms-5934631",
+ "scraped_at": "2026-11-18T14:49:51+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 100,
+  "isApproxLocation": true,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5934631,
+  "updatedAt": "2026-11-15T08:01:52.970Z",
+  "publishedAt": "2026-10-05T14:02:15.387Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي الربوه بمدينة جدة  مساحة الوحدة من الأرض 70.94 متر   وتختص من المنافع والأجزاء المشتركة بمساحة 98.74 متر ",
+  "streetInfo": {},
+  "fullDarReference": "170816-SAU-BU-968015",
+  "propIdentityTypeId": 95,
+  "darReference": "968015",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.189068678876524",
+   "lat": "21.592680809263722"
+  },
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 6,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "247.9",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Rabbwah, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 16723,
+     "title": "Apartments for Sale in Saudi",
+     "type": "link",
+     "slug": "apartments-for-sale-in-jeddah-ar-rabwah",
+     "url": "apartments-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=274",
+     "id": 16724,
+     "title": "Apartments for Sale in Jeddah",
+     "type": "link",
+     "slug": "apartments-for-sale-in-jeddah-ar-rabwah",
+     "url": "apartments-for-sale-in-jeddah"
+    },
+    {
+     "subtitle": "Al Rabbwah",
+     "reference_url": null,
+     "id": 16725,
+     "title": "Apartments for Sale in Ar Rabwah",
+     "type": "text",
+     "slug": "apartments-for-sale-in-jeddah-ar-rabwah",
+     "url": "apartments-for-sale-in-jeddah-ar-rabwah"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<div>حي الربوة&nbsp;</div><div>روف بتشطيبات فاخره وتصميم عصري ومميز&nbsp;</div><div>للباحثين عن التميز والاهتمام بالتفاصيل 👌🏻</div><div>شبابيك كبيره واسقف مرتفعة&nbsp;</div><div><br></div><div><br></div><div><br></div><div>٦ غرف منها غرفتين ماستر&nbsp;</div><div>منهم وحده بنظام جناح بسطح&nbsp;</div><div>٤ حمامات&nbsp;</div><div>صاله واسعه&nbsp;</div><div>عدادات مستقله</div><div>غرفه سواق&nbsp;</div><div>موقف خاص&nbsp;</div><div>لها سطحين خاصه&nbsp;</div><div><br></div><div>مساحه الشقه ٢٥٠ م&nbsp;</div><div>مساحه السطح ١٨٠ م</div><div>باجمالي مساحه ٤٣٠ م&nbsp;</div><div><br></div><div>السعر مليون و ١٨٠ الف</div><div><br></div><div>التواصل واتس المشتري فقط&nbsp;</div><div>تنبيه رجاااء لا استقبل وسطاء&nbsp;</div><div>0543038114</div>",
+   "title": "Apartment 247.9 SQM with 6 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Rabbwah",
+   "propertyName": "Apartment for Sale",
+   "slug": "apartment-2479-sqm-with-6-bedrooms-5934631",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 1180000,
+   "expectedRent": "",
+   "conversionPrice": 1180000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2223,
+   "districtId": 2223,
+   "district": "Al Rabbwah",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-2479-متر-مربع-ب-6-غرف-5934631",
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "الحجاب ابن المنذر"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "3 / 471 / ع"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "391 / ز"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد "
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23448"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "04/10/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "5004"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "7202"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "No"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 3 days ago",
+  "views": {
+   "count": 77,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

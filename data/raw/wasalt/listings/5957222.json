@@ -1,0 +1,247 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/building-25651-sqm-5957222",
+ "scraped_at": "2026-11-18T14:51:38+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5957222,
+  "updatedAt": "2026-11-12T12:42:52.431Z",
+  "publishedAt": "2026-10-15T10:51:39.077Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  البادية  بمدينة الدمام .",
+  "streetInfo": {},
+  "fullDarReference": "625726-SAU-BU-429538",
+  "propIdentityTypeId": 95,
+  "darReference": "429538",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.08726170990149",
+   "lat": "26.425188001171858"
+  },
+  "attributes": [
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "256.51",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Badyah, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=47&propertyTypeData=building",
+     "id": 50129,
+     "title": "Buildings for Sale in Saudi",
+     "type": "link",
+     "slug": "buildings-for-sale-in-dammam-al-badiyah",
+     "url": "buildings-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "sale/search?type=residential&countryId=1&cityId=328&property_types=47&propertyTypeData=building",
+     "id": 50128,
+     "title": "Buildings for Sale in Dammam",
+     "type": "text",
+     "slug": "buildings-for-sale-in-dammam-al-badiyah",
+     "url": "buildings-for-sale-in-dammam"
+    },
+    {
+     "subtitle": "Al Badyah",
+     "reference_url": null,
+     "id": 50127,
+     "title": "Buildings for Sale in Al Badiyah",
+     "type": "text",
+     "slug": "buildings-for-sale-in-dammam-al-badiyah",
+     "url": "buildings-for-sale-in-dammam-al-badiyah"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Building",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\nBuilding for Sale in Al Badyah, Aldammam</p><p></p><p>Building has electricity and water Connections</p><p>Building year: 2015</p><p>Price: 2200000 SAR</p>",
+   "title": "Building 256.51 SQM",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Badyah",
+   "propertyName": "Building for Sale",
+   "slug": "building-25651-sqm-5957222",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 2200000,
+   "expectedRent": "",
+   "conversionPrice": 2200000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3245,
+   "districtId": 3245,
+   "district": "Al Badyah",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "building",
+   "alternateSlug": "عمارة-25651-متر-مربع-5957222",
+   "averageSalePricePerSqm": 8577,
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "10+ years"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "18ب"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "عقار"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "16"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا توجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "32243"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "17/03/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "2556"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "6679"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 6 days ago",
+  "views": {
+   "count": 87,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

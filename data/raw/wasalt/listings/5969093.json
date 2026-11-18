@@ -1,0 +1,287 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-750-sqm-with-1-bedroom-5969093",
+ "scraped_at": "2026-11-18T14:52:04+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5969093,
+  "updatedAt": "2026-11-12T10:40:14.223Z",
+  "publishedAt": "2026-11-12T09:59:16.726Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  الضباب  بمدينة الدمام .",
+  "streetInfo": {},
+  "fullDarReference": "22462-SAU-RE-692839",
+  "propIdentityTypeId": 95,
+  "darReference": "692839",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.04622481126182",
+   "lat": "26.426999965802306"
+  },
+  "monthlyRentEMI": 1870,
+  "rizeMonthlyRentEMI": 1819,
+  "ejariMonthlyRentEMI": 1853,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 1921,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedroom",
+    "value": 1,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "750",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Dabab, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 223199,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-dammam-ad-dabab",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=328&property_types=39&propertyTypeData=apartment",
+     "id": 223198,
+     "title": "Apartments for Rent in Dammam",
+     "type": "text",
+     "slug": "apartments-for-rent-in-dammam-ad-dabab",
+     "url": "apartments-for-rent-in-dammam"
+    },
+    {
+     "subtitle": "Al Dabab",
+     "reference_url": null,
+     "id": 223197,
+     "title": "Apartments for Rent in Ad Dabab",
+     "type": "text",
+     "slug": "apartments-for-rent-in-dammam-ad-dabab",
+     "url": "apartments-for-rent-in-dammam-ad-dabab"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\n\nApartment for Rent in Al Dabab, Aldammam</p><p>Built up Area: 750 SQM</p><p>The property has 1 bedroom</p><p>Apartment has electricity and water Connections</p><p>Building year: 2026</p><p>Price: 20400 SAR</p>",
+   "title": "Apartment 750 SQM with 1 Bedroom",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Dabab",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-750-sqm-with-1-bedroom-5969093",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 20400,
+   "conversionPrice": 20400,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3249,
+   "districtId": 3249,
+   "district": "Al Dabab",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-750-متر-مربع-بغرفة-5969093",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 20400,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "القليب"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "774 / 1"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "124"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "32262"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "03/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "8285"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "2584"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 6 days ago",
+  "views": {
+   "count": 176,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

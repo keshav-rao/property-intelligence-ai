@@ -1,0 +1,339 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/furnished-villa-300-sqm-facing-east-5972202",
+ "scraped_at": "2026-11-18T14:49:15+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 85,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5972202,
+  "updatedAt": "2026-11-18T05:42:27.909Z",
+  "publishedAt": "2026-11-18T05:40:44.794Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي النرجس في  مدينة الرياض",
+  "streetInfo": {
+   "streetWidth": 15
+  },
+  "fullDarReference": "3815-SAU-RE-709992",
+  "propIdentityTypeId": 95,
+  "darReference": "709992",
+  "compoundDetails": {},
+  "location": {
+   "lon": "46.65080728381847",
+   "lat": "24.859536523022133"
+  },
+  "monthlyRentEMI": 22000,
+  "rizeMonthlyRentEMI": 21400,
+  "ejariMonthlyRentEMI": 21800,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 22600,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 6,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "noOfBathrooms",
+    "name": "Bathrooms",
+    "value": 5,
+    "image": "noofbathrooms.png",
+    "iconClass": "bathroom"
+   },
+   {
+    "key": "noOfLivingrooms",
+    "name": "Living Rooms",
+    "value": 4,
+    "image": "nooflivingrooms.png",
+    "iconClass": "apartment"
+   },
+   {
+    "key": "noOfGuestrooms",
+    "name": "Guest Rooms",
+    "value": 4,
+    "image": "noofguestrooms.png",
+    "iconClass": "guest-room"
+   },
+   {
+    "key": "furnishingType",
+    "name": "Furniture",
+    "value": "Furnished",
+    "image": "furnishingtype.png",
+    "iconClass": "furniture"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "550",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "An-Narjis, North Riyadh, Riyadh",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=41&propertyTypeData=villa-townhouse",
+     "id": 28255,
+     "title": "Villas for Rent in Saudi",
+     "type": "link",
+     "slug": "villas-for-rent-in-north-riyadh-al-narjis",
+     "url": "villas-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Riyadh",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=41&propertyTypeData=villa-townhouse&cityId=273",
+     "id": 28256,
+     "title": "Villas for Rent in Riyadh",
+     "type": "link",
+     "slug": "villas-for-rent-in-north-riyadh-al-narjis",
+     "url": "villas-for-rent-in-riyadh"
+    },
+    {
+     "subtitle": "North Riyadh",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=41&propertyTypeData=villa-townhouse&cityId=273&zoneId=5",
+     "id": 28257,
+     "title": "Villas for Rent in North Riyadh",
+     "type": "link",
+     "slug": "villas-for-rent-in-north-riyadh-al-narjis",
+     "url": "villas-for-rent-in-north-riyadh"
+    },
+    {
+     "subtitle": "An-Narjis",
+     "reference_url": null,
+     "id": 28258,
+     "title": "Villas for Rent in Al Narjis",
+     "type": "text",
+     "slug": "villas-for-rent-in-north-riyadh-al-narjis",
+     "url": "villas-for-rent-in-north-riyadh-al-narjis"
+    }
+   ],
+   "city": "Riyadh",
+   "propertySubType": "Villa",
+   "furnishingType": "Furnished",
+   "facingType": null,
+   "description": "<p dir=\"rtl\">فيلا سكنية للتأجير في  حي النرجس٬ الرياض</p><p dir=\"rtl\">مساحة الأرض 300 متر مربع</p><p dir=\"rtl\">يحدها 1 شارع: شرقية٬ \nبعرض 15 م </p><p dir=\"rtl\">مكونة من: 6 غرف</p><p dir=\"rtl\">واصل كهرباء</p><p dir=\"rtl\">واصل مياه</p><p dir=\"rtl\">سنة البناء: 2026</p><p dir=\"rtl\">سعرها 240000 ر.س دفعه واحده&nbsp;</p><p dir=\"rtl\">او 250 الف ريال على دفعتين&nbsp;</p><p dir=\"rtl\">السعي ١٠% من ايجار السنه الاولى مره واحده&nbsp;</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">يمتنع الوسطاء&nbsp;</p>",
+   "title": "Furnished Villa 300 SQM Facing East",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "An-Narjis",
+   "propertyName": "Villa for Rent",
+   "slug": "furnished-villa-300-sqm-facing-east-5972202",
+   "territory": "North Riyadh",
+   "tags": [
+    {
+     "name": "For Rent"
+    },
+    {
+     "name": "Furnished"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 240000,
+   "conversionPrice": 240000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2107,
+   "districtId": 2107,
+   "district": "An-Narjis",
+   "cityId": 273,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "villa-townhouse",
+   "alternateSlug": "فيلا-مفروشة-300-متر-مربع-واجهة-شرقية-5972202",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 240000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "1 year"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "East"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "15 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "لبيد بن عطارد"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "3246"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "168 / 1"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "رهن"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "13333"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "18/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "2638"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "8016"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "noOfFloors",
+    "label": "Total Floors",
+    "value": 3
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated Few Hours ago",
+  "views": {
+   "count": 32,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

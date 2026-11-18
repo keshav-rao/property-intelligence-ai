@@ -1,0 +1,275 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/villa-360-sqm-facing-south-on-15m-width-street-5960895",
+ "scraped_at": "2026-11-18T14:51:28+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5960895,
+  "updatedAt": "2026-11-17T06:09:30.489Z",
+  "publishedAt": "2026-10-30T19:04:50.537Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  الفيصلية  بمدينة الدمام .",
+  "streetInfo": {
+   "streetWidth": 15
+  },
+  "fullDarReference": "427212-SAU-BU-350160",
+  "propIdentityTypeId": 95,
+  "darReference": "350160",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.04220616686239",
+   "lat": "26.39462129676868"
+  },
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 5,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "360",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Manar, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=41&propertyTypeData=villa-townhouse",
+     "id": 47331,
+     "title": "Villas for Sale in Saudi",
+     "type": "link",
+     "slug": "villas-for-sale-in-dammam-al-manar",
+     "url": "villas-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "sale/search?type=residential&countryId=1&cityId=328&property_types=41&propertyTypeData=villa-townhouse",
+     "id": 47330,
+     "title": "Villas for Sale in Dammam",
+     "type": "text",
+     "slug": "villas-for-sale-in-dammam-al-manar",
+     "url": "villas-for-sale-in-dammam"
+    },
+    {
+     "subtitle": "Al Manar",
+     "reference_url": null,
+     "id": 47329,
+     "title": "Villas for Sale in Al Manar",
+     "type": "text",
+     "slug": "villas-for-sale-in-dammam-al-manar",
+     "url": "villas-for-sale-in-dammam-al-manar"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Villa",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>Villa for Sale in Al Manar, Aldammam</p><p>Land Area: 360 SQM</p><p> Villa is located on  1 street, South with 15 m width</p><p>The property has 5 bedrooms</p><p>Villa has electricity and water Connections</p><p>Building year: 2020</p><p>Price: 2200000 SAR</p>",
+   "title": "Villa 360 SQM Facing South on 15m Width Street",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Manar",
+   "propertyName": "Villa for Sale",
+   "slug": "villa-360-sqm-facing-south-on-15m-width-street-5960895",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 2200000,
+   "expectedRent": "",
+   "conversionPrice": 2200000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3250,
+   "districtId": 3250,
+   "district": "Al Manar",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "villa-townhouse",
+   "alternateSlug": "فيلا-360-متر-مربع-جنوبية-على-شارع-15م-5960895",
+   "averageSalePricePerSqm": 6111,
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "6 years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "15 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "ابو الحسن الدرامي"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "1303 ش د"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "3 / 2"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "مرهون"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "32274"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "21/10/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "9474"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "4038"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 1 day ago",
+  "views": {
+   "count": 18,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

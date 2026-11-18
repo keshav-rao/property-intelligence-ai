@@ -1,0 +1,20 @@
+{
+ "finished_at": "2026-11-18T14:52:30+00:00",
+ "listings": 81,
+ "market_guides": 9,
+ "pages": 5,
+ "failed": [
+  {
+   "url": "riyadh/sale",
+   "error": "'list' object has no attribute 'get'"
+  },
+  {
+   "url": "madinah/sale",
+   "error": "'list' object has no attribute 'get'"
+  },
+  {
+   "url": "al-khobar/sale",
+   "error": "'list' object has no attribute 'get'"
+  }
+ ]
+}

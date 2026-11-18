@@ -1,0 +1,326 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/semi-furnished-apartment-5967484",
+ "scraped_at": "2026-11-18T14:50:54+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 85,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5967484,
+  "updatedAt": "2026-11-10T10:46:42.705Z",
+  "publishedAt": "2026-11-08T12:01:09.257Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  ربوة مكة  بمدينة مكة المكرمة .",
+  "streetInfo": {},
+  "fullDarReference": "766034-SAU-RE-361217",
+  "propIdentityTypeId": 95,
+  "darReference": "361217",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.77218225500005",
+   "lat": "21.39945781600005"
+  },
+  "monthlyRentEMI": 3667,
+  "rizeMonthlyRentEMI": 3566.67,
+  "ejariMonthlyRentEMI": 3633.33,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 3767,
+  "attributes": [
+   {
+    "key": "noOfBathrooms",
+    "name": "Bathrooms",
+    "value": 4,
+    "image": "noofbathrooms.png",
+    "iconClass": "bathroom"
+   },
+   {
+    "key": "noOfLivingrooms",
+    "name": "Living Room",
+    "value": 1,
+    "image": "nooflivingrooms.png",
+    "iconClass": "apartment"
+   },
+   {
+    "key": "noOfGuestrooms",
+    "name": "Guest Rooms",
+    "value": "5+",
+    "image": "noofguestrooms.png",
+    "iconClass": "guest-room"
+   },
+   {
+    "key": "furnishingType",
+    "name": "Furniture",
+    "value": "Semi-Furnished",
+    "image": "furnishingtype.png",
+    "iconClass": "furniture"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "221",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Almalekfahd, Makkah Al Mukarramah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 18931,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-makkah-king-fahd",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Makkah Al Mukarramah",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=275",
+     "id": 18932,
+     "title": "Apartments for Rent in Makkah",
+     "type": "link",
+     "slug": "apartments-for-rent-in-makkah-king-fahd",
+     "url": "apartments-for-rent-in-makkah"
+    },
+    {
+     "subtitle": "Almalekfahd",
+     "reference_url": null,
+     "id": 18933,
+     "title": "Apartments for Rent in King Fahd",
+     "type": "text",
+     "slug": "apartments-for-rent-in-makkah-king-fahd",
+     "url": "apartments-for-rent-in-makkah-king-fahd"
+    }
+   ],
+   "city": "Makkah Al Mukarramah",
+   "propertySubType": "Apartment",
+   "furnishingType": "Semi-Furnished",
+   "facingType": null,
+   "description": "<div><p>شقة فاخره للايجار ⭐⭐بالدور الثالث مكونه من 5 ,غرف بمكيفات سبيلت 4,دورات مياه🛀 صالة ,مطبخ بدولاب جاهز , يوجد ايضا غرفة عامله وغرفة سائق ,موقف خاص لشقة وخزان مستقل      السعر:39,000 على دفعتين👍</p></div>",
+   "title": "Semi-Furnished Apartment",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Almalekfahd",
+   "propertyName": "Apartment for Rent",
+   "slug": "semi-furnished-apartment-5967484",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    },
+    {
+     "name": "Semi-Furnished"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 40000,
+   "conversionPrice": 40000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2336,
+   "districtId": 2336,
+   "district": "Almalekfahd",
+   "cityId": 275,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-نصف-مفروشة-5967484",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 40000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "7 years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "صالح سبحي"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "ك ك 1 / 29 / 15 / ب"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "580"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لايوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "24341"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "13/10/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "4054"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "6368"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "noOfFloors",
+    "label": "Total Floors",
+    "value": 3
+   },
+   {
+    "key": "floorNumber",
+    "label": "Property Floor",
+    "value": 6
+   },
+   {
+    "key": "noOfParkings",
+    "label": "Number of Parkings",
+    "value": 1
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 8 days ago",
+  "views": {
+   "count": 176,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

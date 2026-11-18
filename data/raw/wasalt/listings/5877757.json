@@ -1,0 +1,296 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-17524-sqm-with-1-bedroom-5877757",
+ "scraped_at": "2026-11-18T14:49:55+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 97,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5877757,
+  "updatedAt": "2026-07-14T03:21:25.120Z",
+  "publishedAt": "2026-06-24T12:57:08.976Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي النزهة بمدينة جدة  مساحة الوحدة من الأرض 56.47 متر   وتختص من المنافع والأجزاء المشتركة بمساحة 109.44 متر ",
+  "streetInfo": {
+   "streetWidth": null
+  },
+  "fullDarReference": "7732-SAU-RE-262644",
+  "propIdentityTypeId": 95,
+  "darReference": "262644",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.163569300000006",
+   "lat": "21.617888399999977"
+  },
+  "monthlyRentEMI": 2750,
+  "rizeMonthlyRentEMI": 2675,
+  "ejariMonthlyRentEMI": 2725,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 2825,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedroom",
+    "value": 1,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "مسطحات البناء",
+    "value": "175.24",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Nuzha, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 20440,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-jeddah-an-nuzhah",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=274",
+     "id": 20441,
+     "title": "Apartments for Rent in Jeddah",
+     "type": "link",
+     "slug": "apartments-for-rent-in-jeddah-an-nuzhah",
+     "url": "apartments-for-rent-in-jeddah"
+    },
+    {
+     "subtitle": "Al Nuzha",
+     "reference_url": null,
+     "id": 20442,
+     "title": "Apartments for Rent in An Nuzhah",
+     "type": "text",
+     "slug": "apartments-for-rent-in-jeddah-an-nuzhah",
+     "url": "apartments-for-rent-in-jeddah-an-nuzhah"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p dir=\"rtl\">شقة   للتأجير في  حي النزهة٬ جدة</p><p dir=\"rtl\">مسطحات البناء 80.24 متر مربع</p><p dir=\"rtl\"> يحدها 1 شارع: </p><p dir=\"rtl\">مكونة من: 1 غرفة</p><p dir=\"rtl\">1 صالة</p><p dir=\"rtl\">واصل كهرباء</p><p dir=\"rtl\">واصل مياه</p><p dir=\"rtl\">سنة البناء: 2026</p><p dir=\"rtl\">سعرها 30000 ر.س</p>",
+   "title": "Apartment 175.24 SQM with 1 Bedroom",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Nuzha",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-17524-sqm-with-1-bedroom-5877757",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "للايجار"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 30000,
+   "conversionPrice": 30000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/سنة",
+   "expectedMonthlyRentType": "/الشهر",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2224,
+   "districtId": 2224,
+   "district": "Al Nuzha",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-17524-متر-مربع-بغرفة-5877757",
+   "rentFreq": {
+    "monthly": {
+     "enCurrencyType": "SAR",
+     "default_freq": false,
+     "amount": 2500,
+     "arCurrencyType": "ر.س",
+     "freq": "monthly"
+    },
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 30000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "وهب الحبشاني"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "3 / 534 / ع"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "527"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23532"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "24/06/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "3218"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "6439"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 127 days ago",
+  "views": {
+   "count": 10,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

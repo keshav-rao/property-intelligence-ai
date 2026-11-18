@@ -1,0 +1,267 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/apartment-17312-sqm-with-5-bedrooms-5969283",
+ "scraped_at": "2026-11-18T14:50:33+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": true,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5969283,
+  "updatedAt": "2026-11-17T08:52:22.339Z",
+  "publishedAt": "2026-11-12T11:12:48.320Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي الشوقية بمدينة مكة المكرمة  مساحة الوحدة من الأرض 49.45 متر   وتختص من المنافع والأجزاء المشتركة بمساحة 99.73 متر ",
+  "streetInfo": {},
+  "fullDarReference": "764602-SAU-BU-077426",
+  "propIdentityTypeId": 95,
+  "darReference": "077426",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.7932409",
+   "lat": "21.390565200909336"
+  },
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 5,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "173.12",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Alshawkia, Makkah Al Mukarramah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 15193,
+     "title": "Apartments for Sale in Saudi",
+     "type": "link",
+     "slug": "apartments-for-sale-in-makkah-ash-shawqiyah",
+     "url": "apartments-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Makkah Al Mukarramah",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=275",
+     "id": 15194,
+     "title": "Apartments for Sale in Makkah",
+     "type": "link",
+     "slug": "apartments-for-sale-in-makkah-ash-shawqiyah",
+     "url": "apartments-for-sale-in-makkah"
+    },
+    {
+     "subtitle": "Alshawkia",
+     "reference_url": null,
+     "id": 15195,
+     "title": "Apartments for Sale in Ash Shawqiyah",
+     "type": "text",
+     "slug": "apartments-for-sale-in-makkah-ash-shawqiyah",
+     "url": "apartments-for-sale-in-makkah-ash-shawqiyah"
+    }
+   ],
+   "city": "Makkah Al Mukarramah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p dir=\"rtl\">رقم العرض ES2</p><p dir=\"rtl\">🏡 شقق تمليك في مكة المكرمة – حي الشوقية</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">🔥 شقة 5 غرف بـ 580,000 ريال</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">📍 موقع مميز وقريب من مجمع المدارس والخدمات</p><p dir=\"rtl\">🚗 تبعد عن الحرم حوالي 10 دقائق بالسيارة</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">✅ جاهزة للبيع – كاش أو بنك</p><p dir=\"rtl\">✅ صكوك جاهزة للإفراغ</p><p dir=\"rtl\">✅ مساحة الشقة: 180م²</p><p dir=\"rtl\">✅ 5 غرف + صالة + مطبخ + غرفة خادمة + 3 دورات مياه</p><p dir=\"rtl\">✅ مدخلين</p><p dir=\"rtl\">✅ موقف سيارة</p><p dir=\"rtl\">✅ خزان سفلي وعلوي</p><p dir=\"rtl\">✅ بدون دور ميزان</p><p dir=\"rtl\">✅ ضمان المبنى 10 سنوات</p><p dir=\"rtl\">✅ ضمان الكهرباء والسباكة سنتين</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">📐 مساحة الأرض: 700م²</p><p dir=\"rtl\">🛣️ شارع 15م غربي</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">💰 الشقق الأمامية والخلفية: 580,000 ريال</p><p dir=\"rtl\"><br></p><p dir=\"rtl\">📜 صكوك جاهزة للإفراغ</p><p dir=\"rtl\">💰 العمولة من المشتري</p>",
+   "title": "Apartment 173.12 SQM with 5 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Alshawkia",
+   "propertyName": "Apartment for Sale",
+   "slug": "apartment-17312-sqm-with-5-bedrooms-5969283",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 580000,
+   "expectedRent": "",
+   "conversionPrice": 580000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2328,
+   "districtId": 2328,
+   "district": "Alshawkia",
+   "cityId": 275,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-17312-متر-مربع-ب-5-غرف-5969283",
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "شارع قيس بن السكن البخاري"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "1 / 29 / 8"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "1141"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "24351"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "10/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "2480"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "8079"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 1 day ago",
+  "views": {
+   "count": 61,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

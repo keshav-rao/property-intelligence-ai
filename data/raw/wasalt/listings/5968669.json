@@ -1,0 +1,287 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-71233-sqm-with-3-bedrooms-5968669",
+ "scraped_at": "2026-11-18T14:51:21+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 76,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5968669,
+  "updatedAt": "2026-11-12T09:54:35.903Z",
+  "publishedAt": "2026-11-12T09:41:30.116Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  جزع ابو بريقاء مخطط تقسيم أراضى الامانة  بمدينة المدينة المنورة .",
+  "streetInfo": {},
+  "fullDarReference": "110542-SAU-RE-481762",
+  "propIdentityTypeId": 95,
+  "darReference": "481762",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.56146599257322",
+   "lat": "24.415493244288367"
+  },
+  "monthlyRentEMI": 2933,
+  "rizeMonthlyRentEMI": 2853.33,
+  "ejariMonthlyRentEMI": 2906.67,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 3013,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 3,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "712.33",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Abu Bureiqah, Madinah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 20968,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-madinah-abu-burayqa",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Madinah",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=276",
+     "id": 20969,
+     "title": "Apartments for Rent in Madinah",
+     "type": "link",
+     "slug": "apartments-for-rent-in-madinah-abu-burayqa",
+     "url": "apartments-for-rent-in-madinah"
+    },
+    {
+     "subtitle": "Abu Bureiqah",
+     "reference_url": null,
+     "id": 20970,
+     "title": "Apartments for Rent in Abu Burayqa",
+     "type": "text",
+     "slug": "apartments-for-rent-in-madinah-abu-burayqa",
+     "url": "apartments-for-rent-in-madinah-abu-burayqa"
+    }
+   ],
+   "city": "Madinah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\n\nApartment for Rent in Abu Bureiqah, Madinah</p><p>Built up Area: 712.33 SQM</p><p>The property has 3 bedrooms</p><p>Apartment has electricity and water Connections</p><p>Building year: 2026</p><p>Price: 32000 SAR</p>",
+   "title": "Apartment 712.33 SQM with 3 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Abu Bureiqah",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-71233-sqm-with-3-bedrooms-5968669",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 32000,
+   "conversionPrice": 32000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2370,
+   "districtId": 2370,
+   "district": "Abu Bureiqah",
+   "cityId": 276,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-71233-متر-مربع-ب-3-غرف-5968669",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 32000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "1 year"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "محمد بن ابي امامه بن سهل"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "14 / ف / 1409"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "81"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لايوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "42393"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "05/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "4373"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "6684"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 6 days ago",
+  "views": {
+   "count": 151,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

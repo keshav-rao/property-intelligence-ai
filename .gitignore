@@ -1,0 +1,14 @@
+.env
+.venv/
+backend/.venv/
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+__pycache__/
+*.pyc
+*.pyo
+backend/app/data/leads.jsonl
+qdrant_storage/
+data/qdrant_storage/
+.DS_Store

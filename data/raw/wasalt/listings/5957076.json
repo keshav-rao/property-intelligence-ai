@@ -1,0 +1,250 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/land-750-sqm-facing-south-5957076",
+ "scraped_at": "2026-11-18T14:49:21+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5957076,
+  "updatedAt": "2026-11-13T03:04:01.758Z",
+  "publishedAt": "2026-10-15T10:45:14.648Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "",
+  "streetInfo": {
+   "streetWidth": 15
+  },
+  "fullDarReference": "164928-SAU-RE-328429",
+  "propIdentityTypeId": 95,
+  "darReference": "328429",
+  "compoundDetails": {},
+  "location": {
+   "lon": "46.572150943511225",
+   "lat": "24.96903980793816"
+  },
+  "monthlyRentEMI": 8250,
+  "rizeMonthlyRentEMI": 8025,
+  "ejariMonthlyRentEMI": 8175,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 8475,
+  "attributes": [
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "750",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Binban, Riyadh",
+   "breadCrumbs": [],
+   "city": "Riyadh",
+   "propertySubType": "Land",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>Land for Rent in Binban, Riyadh</p><p>Land Area: 750 SQM</p><p> Land is located on  1 street, South with 15 m width</p><p>Price: 90000 SAR</p>",
+   "title": "Land 750 SQM Facing South",
+   "unitType": "SQM",
+   "possessionType": null,
+   "zone": "Binban",
+   "propertyName": "Land for Rent",
+   "slug": "land-750-sqm-facing-south-5957076",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 90000,
+   "conversionPrice": 90000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 8773,
+   "districtId": 8773,
+   "district": "Binban",
+   "cityId": 273,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "residential-land",
+   "alternateSlug": "أرض-750-متر-مربع-واجهة-جنوبية-5957076",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 90000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "15 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "الضفرة"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "3080"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "276"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "13355"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "13/10/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "6752"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "2908"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "No"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "No"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 5 days ago",
+  "views": {
+   "count": 71,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

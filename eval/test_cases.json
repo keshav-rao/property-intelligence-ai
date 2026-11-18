@@ -1,0 +1,202 @@
+[
+  {
+    "id": "tc-01",
+    "category": "darglobal_riyadh",
+    "question": "What residential projects are listed by DarGlobal in Riyadh?",
+    "expected_keywords": ["Neptune", "Mouawad", "Wadi Safar", "Riyadh"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-02",
+    "category": "darglobal_dubai",
+    "question": "What luxury branded residences does DarGlobal develop in Dubai?",
+    "expected_keywords": ["Pagani", "DaVinci", "Missoni", "Urban Oasis", "W Residences", "Business Bay"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-03",
+    "category": "darglobal_partners",
+    "question": "Which global luxury and automotive brands partner with DarGlobal?",
+    "expected_keywords": ["Lamborghini", "Pagani", "Aston Martin", "Missoni", "Elie Saab", "Trump", "Mouawad"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-04",
+    "category": "darglobal_mouawad",
+    "question": "Tell me about the $234.6 Million luxury residential project in Riyadh by Dar Global and Mouawad.",
+    "expected_keywords": ["234.6", "Mouawad", "Riyadh", "luxury", "mansion", "Tabasheer"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-05",
+    "category": "darglobal_spain",
+    "question": "What luxury villa projects does DarGlobal offer in Spain with Automobili Lamborghini?",
+    "expected_keywords": ["Tierra Viva", "Lamborghini", "Benahavís", "Spain", "Costa del Sol"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-06",
+    "category": "darglobal_oman",
+    "question": "What is the AIDA project in Oman and what amenities does it feature?",
+    "expected_keywords": ["AIDA", "Muscat", "Trump", "golf", "cliff", "Oman"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-07",
+    "category": "darglobal_qatar",
+    "question": "What is Les Vagues by Elie Saab in Qatar?",
+    "expected_keywords": ["Les Vagues", "Elie Saab", "Qetaifan", "Qatar", "waterfront"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-08",
+    "category": "darglobal_uk",
+    "question": "What prime central London properties are developed by DarGlobal?",
+    "expected_keywords": ["Mulliner", "Albert Hall", "London", "Mayfair", "Hyde Park"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-09",
+    "category": "corporate_profile",
+    "question": "Who is the CEO of DarGlobal, what is its parent company, and where is it stock-listed?",
+    "expected_keywords": ["Ziad El Chaar", "Dar Al Arkan", "London Stock Exchange", "LSE", "DAR"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-10",
+    "category": "golden_visa",
+    "question": "Does purchasing a DarGlobal property qualify for Golden Visas or residency?",
+    "expected_keywords": ["Golden Visa", "residency", "UAE", "Spain", "Oman", "freehold"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-11",
+    "category": "wasalt_riyadh",
+    "question": "What types of properties are available in Riyadh on Wasalt?",
+    "expected_keywords": ["Riyadh", "Wasalt", "villa", "apartment", "rent", "sale"],
+    "expected_platform": "wasalt",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-12",
+    "category": "wasalt_jeddah",
+    "question": "Show me rental apartments in Jeddah on Wasalt.",
+    "expected_keywords": ["Jeddah", "apartment", "rent", "Wasalt"],
+    "expected_platform": "wasalt",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-13",
+    "category": "wasalt_district",
+    "question": "Are there properties listed in Al Nuzha district in Jeddah?",
+    "expected_keywords": ["Al Nuzha", "Jeddah", "Apartment"],
+    "expected_platform": "wasalt",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-14",
+    "category": "wasalt_services",
+    "question": "What is Wasalt and how does it serve property seekers in Saudi Arabia?",
+    "expected_keywords": ["marketplace", "Saudi Arabia", "broker", "rent", "sale", "wasalt.sa"],
+    "expected_platform": "wasalt",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-15",
+    "category": "wasalt_market_guide",
+    "question": "What information does Wasalt provide in its Riyadh rental market guide?",
+    "expected_keywords": ["Riyadh", "rent", "listings", "market"],
+    "expected_platform": "wasalt",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-16",
+    "category": "platform_comparison",
+    "question": "What is the difference between DarGlobal and Wasalt?",
+    "expected_keywords": ["DarGlobal", "Wasalt", "developer", "marketplace", "luxury", "international"],
+    "expected_platform": null,
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-17",
+    "category": "property_comparison",
+    "question": "Compare luxury villas by DarGlobal in Riyadh with typical Wasalt residential properties.",
+    "expected_keywords": ["Neptune", "luxury", "branded", "marketplace", "Riyadh"],
+    "expected_platform": null,
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-18",
+    "category": "pricing_intelligence",
+    "question": "What is the price range of Neptune villas in Riyadh compared to DaVinci Tower in Dubai?",
+    "expected_keywords": ["7,500,000", "SAR", "6,800,000", "AED"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-19",
+    "category": "source_citation",
+    "question": "Show me the source link and details for Neptune by DarGlobal.",
+    "expected_keywords": ["darglobal.co.uk", "Neptune"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-20",
+    "category": "amenities_search",
+    "question": "Which DarGlobal projects feature championship golf courses?",
+    "expected_keywords": ["AIDA", "Trump", "Golf", "Muscat", "Jumeirah Golf Estates"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-21",
+    "category": "hallucination_prevention",
+    "question": "Does DarGlobal have luxury residential villas on planet Mars?",
+    "expected_keywords": ["not available", "no", "not present", "Mars"],
+    "expected_platform": "darglobal",
+    "should_have_sources": false
+  },
+  {
+    "id": "tc-22",
+    "category": "hallucination_prevention",
+    "question": "What is the rental price of an igloo in Antarctica on Wasalt?",
+    "expected_keywords": ["not available", "no", "not present", "Antarctica"],
+    "expected_platform": "wasalt",
+    "should_have_sources": false
+  },
+  {
+    "id": "tc-23",
+    "category": "hallucination_prevention",
+    "question": "Did Tesla or Apple collaborate with DarGlobal to build electric car towers?",
+    "expected_keywords": ["not available", "no", "not found", "Lamborghini", "Pagani", "Aston Martin"],
+    "expected_platform": "darglobal",
+    "should_have_sources": false
+  },
+  {
+    "id": "tc-24",
+    "category": "luxury_wellness",
+    "question": "What is Padel Living at Amaya in Jeddah?",
+    "expected_keywords": ["Padel Living", "Amaya", "Jeddah", "sports", "wellness"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  },
+  {
+    "id": "tc-25",
+    "category": "trump_organization",
+    "question": "List all Trump branded projects in DarGlobal's portfolio.",
+    "expected_keywords": ["Trump Mansions", "Wadi Safar", "Trump Tower Jeddah", "Trump International Hotel", "AIDA", "Dubai", "Simaisma"],
+    "expected_platform": "darglobal",
+    "should_have_sources": true
+  }
+]

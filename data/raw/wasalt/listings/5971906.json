@@ -1,0 +1,287 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-13168-sqm-with-2-bedrooms-5971906",
+ "scraped_at": "2026-11-18T14:51:49+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5971906,
+  "updatedAt": "2026-11-15T10:20:10.465Z",
+  "publishedAt": "2026-11-15T10:20:10.444Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي الشعلة بمدينة الدمام  مساحة الوحدة من الأرض 61.63 متر   وتختص من المنافع والأجزاء المشتركة بمساحة 26.04 متر ",
+  "streetInfo": {},
+  "fullDarReference": "462249-SAU-RE-103514",
+  "propIdentityTypeId": 95,
+  "darReference": "103514",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.09693814636801",
+   "lat": "26.350061209963634"
+  },
+  "monthlyRentEMI": 4583,
+  "rizeMonthlyRentEMI": 4458.33,
+  "ejariMonthlyRentEMI": 4541.67,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 4708,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 2,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "131.68",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Shooalah, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 222989,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-dammam-ash-shulah",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=328&property_types=39&propertyTypeData=apartment",
+     "id": 222988,
+     "title": "Apartments for Rent in Dammam",
+     "type": "text",
+     "slug": "apartments-for-rent-in-dammam-ash-shulah",
+     "url": "apartments-for-rent-in-dammam"
+    },
+    {
+     "subtitle": "Al Shooalah",
+     "reference_url": null,
+     "id": 222987,
+     "title": "Apartments for Rent in Ash Shulah",
+     "type": "text",
+     "slug": "apartments-for-rent-in-dammam-ash-shulah",
+     "url": "apartments-for-rent-in-dammam-ash-shulah"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<div><p>🏡 <strong>للإيجار | شقة فاخرة داخل مجمع سكني – حي الشعلة</strong></p><p>✨ شقة مميزة بتصميم عملي وتأثيث متكامل، تقع داخل مجمع سكني متكامل يوفر الراحة والخصوصية والمرافق الترفيهية لجميع أفراد الأسرة.</p><p>📍 <strong>موقع الشقة:</strong></p><ul><li><p>حي الشعلة</p></li><li><p>الدور الثاني – شقة رقم 6</p></li><li><p>عمارة رقم 1</p></li><li><p>مصعد كهربائي</p></li></ul><p><strong>مواصفات الشقة:</strong></p><ul><li><p>مجلس واسع غير مؤثث، يمكن استخدامه كغرفة نوم إضافية أو مكتب.</p></li><li><p>صالة واسعة مفتوحة على المطبخ.</p></li><li><p>غرفتا نوم مؤثثتان، إحداهما ماستر.</p></li><li><p>غرفة خادمة بدورة مياه خاصة.</p></li><li><p>4 دورات مياه.</p></li><li><p>مطبخ مؤثث بالكامل بجميع الأجهزة الكهربائية.</p></li><li><p>غرفة غسيل مجهزة بغسالة ومجففة.</p></li><li><p>مكيفات راكبة.</p></li></ul><p><strong>الخدمات والمرافق:</strong></p><ul><li><p>مدخل سيارة وموقف خاص.</p></li><li><p>عداد كهرباء مستقل.</p></li><li><p>توفر المياه.</p></li><li><p>ألياف ضوئية.</p></li></ul><p><strong>مميزات المجمع السكني:</strong></p><ul><li><p>حراسة أمنية.</p></li><li><p>بوابات كهربائية.</p></li><li><p>مسبح مفتوح.</p></li><li><p>نادي رياضي.</p></li><li><p>غرفة ألعاب للأطفال.</p></li></ul><p>✨ سكن يجمع بين الفخامة والراحة، مع مرافق متكاملة تناسب احتياجات العائلة.</p><p></p><p><strong>مكانك العقاريةS\"</strong><br>وساطة عقارية | إدارة أملاك</p></div>",
+   "title": "Apartment 131.68 SQM with 2 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Shooalah",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-13168-sqm-with-2-bedrooms-5971906",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 50000,
+   "conversionPrice": 50000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3308,
+   "districtId": 3308,
+   "district": "Al Shooalah",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-13168-متر-مربع-بغرفتين-5971906",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 50000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "5 years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "8و"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "ش د 1236"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "76"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "مرهون "
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "34262"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "14/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "4666"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "8479"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 3 days ago",
+  "views": {
+   "count": 11,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

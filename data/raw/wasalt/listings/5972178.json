@@ -1,0 +1,317 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/furnished-apartment-with-1-bedroom-5972178",
+ "scraped_at": "2026-11-18T14:49:18+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 94,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5972178,
+  "updatedAt": "2026-11-17T15:00:23.700Z",
+  "publishedAt": "2026-11-17T14:59:48.095Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "",
+  "streetInfo": {},
+  "fullDarReference": "770350-SAU-RE-722902",
+  "propIdentityTypeId": 95,
+  "darReference": "722902",
+  "compoundDetails": {},
+  "location": {
+   "lon": "46.71010577020528",
+   "lat": "24.776254008974018"
+  },
+  "monthlyRentEMI": 5500,
+  "rizeMonthlyRentEMI": 5350,
+  "ejariMonthlyRentEMI": 5450,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 5650,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedroom",
+    "value": 1,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "noOfBathrooms",
+    "name": "Bathroom",
+    "value": 1,
+    "image": "noofbathrooms.png",
+    "iconClass": "bathroom"
+   },
+   {
+    "key": "noOfLivingrooms",
+    "name": "Living Room",
+    "value": 1,
+    "image": "nooflivingrooms.png",
+    "iconClass": "apartment"
+   },
+   {
+    "key": "furnishingType",
+    "name": "Furniture",
+    "value": "Furnished",
+    "image": "furnishingtype.png",
+    "iconClass": "furniture"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "60",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al-Ezdihar, North Riyadh, Riyadh",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&furnishingTypeId=5",
+     "id": 286280,
+     "title": "Furnished Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-ezdihar",
+     "url": "furnished-apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Riyadh",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=273&property_types=39&propertyTypeData=apartment&furnishingTypeId=5",
+     "id": 286279,
+     "title": "Furnished Apartments for Rent in Riyadh",
+     "type": "link",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-ezdihar",
+     "url": "furnished-apartments-for-rent-in-riyadh"
+    },
+    {
+     "subtitle": "North Riyadh",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=273&zoneId=5&property_types=39&propertyTypeData=apartment&furnishingTypeId=5",
+     "id": 286278,
+     "title": "Furnished Apartments for Rent in North Riyadh",
+     "type": "link",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-ezdihar",
+     "url": "furnished-apartments-for-rent-in-north-riyadh"
+    },
+    {
+     "subtitle": "Al-Ezdihar",
+     "reference_url": null,
+     "id": 286277,
+     "title": "Furnished Apartments for Rent in Al Ezdihar",
+     "type": "text",
+     "slug": "furnished-apartments-for-rent-in-north-riyadh-al-ezdihar",
+     "url": "furnished-apartments-for-rent-in-north-riyadh-al-ezdihar"
+    }
+   ],
+   "city": "Riyadh",
+   "propertySubType": "Apartment",
+   "furnishingType": "Furnished",
+   "facingType": null,
+   "description": "<div>وحدات سكنية مؤثثة للإيجار في حي الازدهار المتوفر: شقة مؤثثة  غرفة وصالة الايجار: 5000 شهرياً  يوجد مطبخ - غسالة أوتوماتيك - فرن كهربائي الموقع مميز شامل الكهرباء والماء والإنترنت  التواصل: 0539121000(عبدالله)                0552651000(عبدالمجيد)               0538241000 (أسامه)              0538451000 ( عبدالعزيز)                    0556831000 ( نايف)          شركة ألف العقارية خدماتنا: تسويق - إدارة أملاك - كتابة عقود الكترونية أوقات العمل: من السبت إلى الخميس يوم الجمعة إجازة  من 3 عصراً إلى 10 مساء&nbsp;</div>",
+   "title": "Furnished Apartment with 1 Bedroom",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al-Ezdihar",
+   "propertyName": "Apartment for Rent",
+   "slug": "furnished-apartment-with-1-bedroom-5972178",
+   "territory": "North Riyadh",
+   "tags": [
+    {
+     "name": "For Rent"
+    },
+    {
+     "name": "Furnished"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 60000,
+   "conversionPrice": 60000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2087,
+   "districtId": 2087,
+   "district": "Al-Ezdihar",
+   "cityId": 273,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-مفروشة-بغرفة-5972178",
+   "rentFreq": {
+    "monthly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 5000,
+     "arCurrencyType": "ر.س",
+     "freq": "monthly"
+    },
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": false,
+     "amount": 60000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "3 years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "العباس بن عبدالمطلب"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "12485"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "17/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "6845"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "2581"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated Few Hours ago",
+  "views": {
+   "count": 50,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

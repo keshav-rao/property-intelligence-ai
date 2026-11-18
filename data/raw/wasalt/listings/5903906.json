@@ -1,0 +1,259 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/land-600-sqm-facing-north-on-15m-width-street-5903906",
+ "scraped_at": "2026-11-18T14:49:43+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 100,
+  "isApproxLocation": true,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5903906,
+  "updatedAt": "2026-11-17T13:48:26.929Z",
+  "publishedAt": "2026-09-08T14:44:50.927Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  النور  بمدينة جدة .",
+  "streetInfo": {
+   "streetWidth": 15
+  },
+  "fullDarReference": "119864-SAU-BU-686283",
+  "propIdentityTypeId": 95,
+  "darReference": "686283",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.064166301538584",
+   "lat": "21.854356081157736"
+  },
+  "attributes": [
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "600",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al-Noor, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=43&propertyTypeData=residential-land",
+     "id": 3127,
+     "title": "Lands for Sale in Saudi",
+     "type": "link",
+     "slug": "lands-for-sale-in-jeddah-al-nur",
+     "url": "lands-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=43&propertyTypeData=residential-land&cityId=274",
+     "id": 3128,
+     "title": "Lands for Sale in Jeddah",
+     "type": "link",
+     "slug": "lands-for-sale-in-jeddah-al-nur",
+     "url": "lands-for-sale-in-jeddah"
+    },
+    {
+     "subtitle": "Al-Noor",
+     "reference_url": null,
+     "id": 3129,
+     "title": "Lands for Sale in Al Nur",
+     "type": "text",
+     "slug": "lands-for-sale-in-jeddah-al-nur",
+     "url": "lands-for-sale-in-jeddah-al-nur"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Land",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>Land for Sale in Al-Noor, Jeddah</p><p>Land Area: 600 SQM</p><p> Land is located on  1 street, North with 15 m width</p><p>Land has electricity and water Connections</p><p>Price: 930000 SAR</p>",
+   "title": "Land 600 SQM Facing North on 15m Width Street",
+   "unitType": "SQM",
+   "possessionType": null,
+   "zone": "Al-Noor",
+   "propertyName": "Land for Sale",
+   "slug": "land-600-sqm-facing-north-on-15m-width-street-5903906",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 930000,
+   "expectedRent": "",
+   "conversionPrice": 930000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2491,
+   "districtId": 2491,
+   "district": "Al-Noor",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "residential-land",
+   "alternateSlug": "أرض-600-متر-مربع-شمالية-على-شارع-15م-5903906",
+   "averageSalePricePerSqm": 1550,
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "North"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "15 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "جهيرة"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "6 / ج / س"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "647 / ب"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": " لا يوجد "
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23847"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "05/09/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "4732"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "7614"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 1 day ago",
+  "views": {
+   "count": 72,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

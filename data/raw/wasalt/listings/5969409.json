@@ -1,0 +1,259 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/land-20011-sqm-facing-west-on-25m-width-street-5969409",
+ "scraped_at": "2026-11-18T14:50:23+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 94,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5969409,
+  "updatedAt": "2026-11-12T11:26:05.862Z",
+  "publishedAt": "2026-11-12T10:17:32.210Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي القشاشية الجديد في  مدينة مكة المكرمة",
+  "streetInfo": {
+   "streetWidth": 25
+  },
+  "fullDarReference": "39936-SAU-BU-035392",
+  "propIdentityTypeId": 95,
+  "darReference": "035392",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.86855646374218",
+   "lat": "21.224054569766402"
+  },
+  "attributes": [
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "200.11",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Alghashashyaalgadeed, Makkah Al Mukarramah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=43&propertyTypeData=residential-land",
+     "id": 116791,
+     "title": "Lands for Sale in Saudi",
+     "type": "link",
+     "slug": "lands-for-sale-in-makkah-al-gashashia-al-jadid",
+     "url": "lands-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Makkah Al Mukarramah",
+     "reference_url": "sale/search?type=residential&countryId=1&cityId=275&property_types=43&propertyTypeData=residential-land",
+     "id": 116790,
+     "title": "Lands for Sale in Makkah",
+     "type": "text",
+     "slug": "lands-for-sale-in-makkah-al-gashashia-al-jadid",
+     "url": "lands-for-sale-in-makkah"
+    },
+    {
+     "subtitle": "Alghashashyaalgadeed",
+     "reference_url": null,
+     "id": 116789,
+     "title": "Lands for Sale in Al Gashashia Al Jadid",
+     "type": "text",
+     "slug": "lands-for-sale-in-makkah-al-gashashia-al-jadid",
+     "url": "lands-for-sale-in-makkah-al-gashashia-al-jadid"
+    }
+   ],
+   "city": "Makkah Al Mukarramah",
+   "propertySubType": "Land",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>Land for Sale in Alghashashyaalgadeed, Makkah Al Mukarramah</p><p>Land Area: 200.11 SQM</p><p> Land is located on  1 street, West with 25 m width</p><p>Land has electricity Connections</p><p>Price: 68037400 SAR</p>",
+   "title": "Land 200.11 SQM Facing West on 25m Width Street",
+   "unitType": "SQM",
+   "possessionType": null,
+   "zone": "Alghashashyaalgadeed",
+   "propertyName": "Land for Sale",
+   "slug": "land-20011-sqm-facing-west-on-25m-width-street-5969409",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 68037400,
+   "expectedRent": "",
+   "conversionPrice": 68037400,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 4225,
+   "districtId": 4225,
+   "district": "Alghashashyaalgadeed",
+   "cityId": 275,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "residential-land",
+   "alternateSlug": "أرض-20011-متر-مربع-غربية-على-شارع-25م-5969409",
+   "averageSalePricePerSqm": 340000,
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "West"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "25 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "ولي العهد 8"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "عقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "ك ك 1 / 7 / 118 / أ"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "139  /  3"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لايوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "00000"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "11/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "0000"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "0000"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "No"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 6 days ago",
+  "views": {
+   "count": 68,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

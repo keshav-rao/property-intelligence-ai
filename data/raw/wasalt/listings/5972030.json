@@ -1,0 +1,294 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-600-sqm-with-1-bedroom-5972030",
+ "scraped_at": "2026-11-18T14:50:00+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [
+   {
+    "sequence": 1,
+    "thumbnail": "https://assets.wasalt.com/properties/5972030/images/7b93fb49-9cf7-4062-a7e2-48a4f0d7baff_thumbnail.jpg",
+    "name": "https://cdn.wasalt.com/production/properties/5972030/videos/7b93fb49-9cf7-4062-a7e2-48a4f0d7baff.mp4",
+    "type": "manual-video"
+   }
+  ],
+  "reservation": null,
+  "id": 5972030,
+  "updatedAt": "2026-11-17T19:33:21.141Z",
+  "publishedAt": "2026-11-16T11:16:24.489Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  البوادى  بمدينة جدة .",
+  "streetInfo": {},
+  "fullDarReference": "360824-SAU-RE-836770",
+  "propIdentityTypeId": 95,
+  "darReference": "836770",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.1669986717076",
+   "lat": "21.5971665454136"
+  },
+  "monthlyRentEMI": 183,
+  "rizeMonthlyRentEMI": 178.33,
+  "ejariMonthlyRentEMI": 0,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 188,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedroom",
+    "value": 1,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "600",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Bawadi, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 20404,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-jeddah-al-bawadi",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=274",
+     "id": 20405,
+     "title": "Apartments for Rent in Jeddah",
+     "type": "link",
+     "slug": "apartments-for-rent-in-jeddah-al-bawadi",
+     "url": "apartments-for-rent-in-jeddah"
+    },
+    {
+     "subtitle": "Al Bawadi",
+     "reference_url": null,
+     "id": 20406,
+     "title": "Apartments for Rent in Al Bawadi",
+     "type": "text",
+     "slug": "apartments-for-rent-in-jeddah-al-bawadi",
+     "url": "apartments-for-rent-in-jeddah-al-bawadi"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<div><p><em>للإيجار شقة مفروشة - حي البوادي</em> ✨🏠  <em>📌 تتكون من:</em> 🔹 غرفة واسعة مفروشة  🔹 مطبخ راكب وجاهز 🔹 حمام نظيف  <em>⚡ المميزات:</em> ✅ مفروشة بالكامل - جاهزة للسكن فوراً ✅ شامل الكهرباء والماء ✅ شامل النت - إنترنت مجاني ✅ أثاث نظيف ومرتب ✅ عمارة نظيفة وهادئة  <em>💰 الإيجار:</em> 2000 ريال شامل ( كهرباء + ماء + نت )  <em>📍 الموقع:</em> حي البوادي - جدة  📞 <em>للتواصل: ((0554322675))</em></p></div>",
+   "title": "Apartment 600 SQM with 1 Bedroom",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Bawadi",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-600-sqm-with-1-bedroom-5972030",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 2000,
+   "conversionPrice": 2000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2212,
+   "districtId": 2212,
+   "district": "Al Bawadi",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-600-متر-مربع-بغرفة-5972030",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 2000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "الخطيب التبريزي"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "3 / 361ع"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "62"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد "
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23443"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "29/10/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "2726"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "7942"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated Few Hours ago",
+  "views": {
+   "count": 56,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

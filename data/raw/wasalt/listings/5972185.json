@@ -1,0 +1,269 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/apartment-9612-sqm-with-2-bedrooms-5972185",
+ "scraped_at": "2026-11-18T14:51:31+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5972185,
+  "updatedAt": "2026-11-17T17:00:59.878Z",
+  "publishedAt": "2026-11-17T17:00:59.849Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "الشقة رقم 10 / 3 في الدور الثالث  من العقار رقم 8013   المقام على قطعة الارض 79 و قطعة الارض 81 من    البلك رقم  10  المجاورة الأولى   المخطط رقم  ش د 1450  السيف بمدينة الدمام  مساحة الوحدة من الأرض 36.22 متر   وتختص من المنافع والأجزاء المشتركة بمساحة 64.99 متر ",
+  "streetInfo": {
+   "streetWidth": null
+  },
+  "fullDarReference": "335003-SAU-BU-204944",
+  "propIdentityTypeId": 95,
+  "darReference": "204944",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.223972533754115",
+   "lat": "26.40037870234314"
+  },
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 2,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "96.12",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Seef, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 47045,
+     "title": "Apartments for Sale in Saudi",
+     "type": "link",
+     "slug": "apartments-for-sale-in-dammam-as-saif",
+     "url": "apartments-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "sale/search?type=residential&countryId=1&cityId=328&property_types=39&propertyTypeData=apartment",
+     "id": 47044,
+     "title": "Apartments for Sale in Dammam",
+     "type": "text",
+     "slug": "apartments-for-sale-in-dammam-as-saif",
+     "url": "apartments-for-sale-in-dammam"
+    },
+    {
+     "subtitle": "Al Seef",
+     "reference_url": null,
+     "id": 47043,
+     "title": "Apartments for Sale in As Saif",
+     "type": "text",
+     "slug": "apartments-for-sale-in-dammam-as-saif",
+     "url": "apartments-for-sale-in-dammam-as-saif"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\n\nApartment for Sale in Al Seef, Aldammam</p><p>Built up Area: 96.12 SQM</p><p> Apartment is located on  1 street</p><p>The property has 2 bedrooms</p><p>Apartment has electricity and water Connections</p><p>Building year: 2026</p><p>Price: 700000 SAR</p>",
+   "title": "Apartment 96.12 SQM with 2 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Seef",
+   "propertyName": "Apartment for Sale",
+   "slug": "apartment-9612-sqm-with-2-bedrooms-5972185",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 700000,
+   "expectedRent": "",
+   "conversionPrice": 700000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3257,
+   "districtId": 3257,
+   "district": "Al Seef",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-9612-متر-مربع-بغرفتين-5972185",
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "West"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "39 السيف"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "ش د 1450"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "81"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "34210"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "17/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "2318"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "8013"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed Few Hours ago",
+  "views": {
+   "count": 5,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

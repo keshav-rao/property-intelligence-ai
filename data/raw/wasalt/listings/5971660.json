@@ -1,0 +1,289 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-13756-sqm-with-3-bedrooms-5971660",
+ "scraped_at": "2026-11-18T14:51:51+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5971660,
+  "updatedAt": "2026-11-12T17:07:47.137Z",
+  "publishedAt": "2026-11-12T12:56:28.606Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "",
+  "streetInfo": {
+   "streetWidth": null
+  },
+  "fullDarReference": "696350-SAU-RE-333123",
+  "propIdentityTypeId": 95,
+  "darReference": "333123",
+  "compoundDetails": {},
+  "location": {
+   "lon": "50.22352895412049",
+   "lat": "26.404619131629932"
+  },
+  "monthlyRentEMI": 4125,
+  "rizeMonthlyRentEMI": 4012.5,
+  "ejariMonthlyRentEMI": 4087.5,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 4237,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 3,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "137.56",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Seef, Aldammam",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 223217,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-dammam-as-saif",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Aldammam",
+     "reference_url": "rent/search?type=residential&countryId=1&cityId=328&property_types=39&propertyTypeData=apartment",
+     "id": 223216,
+     "title": "Apartments for Rent in Dammam",
+     "type": "text",
+     "slug": "apartments-for-rent-in-dammam-as-saif",
+     "url": "apartments-for-rent-in-dammam"
+    },
+    {
+     "subtitle": "Al Seef",
+     "reference_url": null,
+     "id": 223215,
+     "title": "Apartments for Rent in As Saif",
+     "type": "text",
+     "slug": "apartments-for-rent-in-dammam-as-saif",
+     "url": "apartments-for-rent-in-dammam-as-saif"
+    }
+   ],
+   "city": "Aldammam",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\n\nApartment for Rent in Al Seef, Aldammam</p><p>Built up Area: 137.56 SQM</p><p> Apartment is located on  1 street</p><p>The property has 3 bedrooms</p><p>Apartment has electricity Connections</p><p>Building year: 2026</p><p>Price: 45000 SAR</p>",
+   "title": "Apartment 137.56 SQM with 3 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Seef",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-13756-sqm-with-3-bedrooms-5971660",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 45000,
+   "conversionPrice": 45000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 3257,
+   "districtId": 3257,
+   "district": "Al Seef",
+   "cityId": 328,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-13756-متر-مربع-ب-3-غرف-5971660",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 45000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "East"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "000"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "1450 ش د"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "31"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "34210"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "05/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "2283"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "8488"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "No"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 5 days ago",
+  "views": {
+   "count": 122,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

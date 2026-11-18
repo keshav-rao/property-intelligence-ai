@@ -1,0 +1,274 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/apartment-10882-sqm-with-3-bedrooms-5972203",
+ "scraped_at": "2026-11-18T14:50:25+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [
+   {
+    "sequence": 1,
+    "thumbnail": "https://assets.wasalt.com/properties/5972203/images/463254b2-728b-4b83-8699-153c2d4a0738_thumbnail.jpg",
+    "name": "https://cdn.wasalt.com/production/properties/5972203/videos/463254b2-728b-4b83-8699-153c2d4a0738.mp4",
+    "type": "manual-video"
+   }
+  ],
+  "reservation": null,
+  "id": 5972203,
+  "updatedAt": "2026-11-18T06:17:10.533Z",
+  "publishedAt": "2026-11-18T06:17:10.510Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "",
+  "streetInfo": {},
+  "fullDarReference": "5622-SAU-BU-821235",
+  "propIdentityTypeId": 95,
+  "darReference": "821235",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.7823189437764",
+   "lat": "21.363597372948195"
+  },
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 3,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "108.82",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Almouhamdeah, Makkah Al Mukarramah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 115381,
+     "title": "Apartments for Sale in Saudi",
+     "type": "link",
+     "slug": "apartments-for-sale-in-makkah-al-muhammadiia",
+     "url": "apartments-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Makkah Al Mukarramah",
+     "reference_url": "sale/search?type=residential&countryId=1&cityId=275&property_types=39&propertyTypeData=apartment",
+     "id": 115380,
+     "title": "Apartments for Sale in Makkah",
+     "type": "text",
+     "slug": "apartments-for-sale-in-makkah-al-muhammadiia",
+     "url": "apartments-for-sale-in-makkah"
+    },
+    {
+     "subtitle": "Almouhamdeah",
+     "reference_url": null,
+     "id": 115379,
+     "title": "Apartments for Sale in Al Muhammadiia",
+     "type": "text",
+     "slug": "apartments-for-sale-in-makkah-al-muhammadiia",
+     "url": "apartments-for-sale-in-makkah-al-muhammadiia"
+    }
+   ],
+   "city": "Makkah Al Mukarramah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<div><p>شقة للبيع في حي المحمدية٬ مكة المكرمة</p><p>مسطحات البناء 110 متر مربع</p><p>مكونة من: 3 غرف</p><p>واصل كهرباء</p><p>واصل مياه</p><p>سنة البناء: 2026</p><p>سعرها 450000 ر.س</p><p><strong>شقة مميزه فاخره في مكه الشوقية - الشافعي    </strong></p><p><strong> مساحة الشقة  110 متر   السعر 450000 الف</strong></p><p><strong>3 غرف</strong></p><p><strong> 3 دورات مياه</strong></p><p><strong> مطبخ </strong></p><p><strong>صالة كبيرة </strong></p><p><strong>غرفة غسيل </strong></p><p><strong>خزانين سفلي وعلوي (معزول كامل </strong></p><p><strong>جميع الخدمات صرف مياه الياف بصرية موجودة نظام دفاع مدني كاميرات مراقبة للمواقف والمدخل دخول ذكي بالبصمة تحكم في الانارة من خلال شاشة لمس او من خلال الموبايل حارس خاص للعمارة  غرف مشتركة للسائقين بديل الخشب وبديل الجبس الفوم وورق جدران نوعية ممتازة إضاءات مخفية وموفرة للطاقة سخانات وشفاطات مخفية شبابيك كبيرة انتركوم بكاميرا لكل شقة تسليك الكهرباء والمفاتيح من شركة الفنار بضمان حقيقي واستبدال مجاني في حال الاعطال ضمان على السباكة والكهرباء والاساسات جميع الشقق معزولة عزل مائي وحراري وعازل صوت البناء حسب نظام الكود السعودي مصعد ممتاز بضمان على المكينة 5 سنوات يتم تسليم الشقق للعميل مغسلة بواسطة شركة نظافة خاصة</strong></p></div>",
+   "title": "Apartment 108.82 SQM with 3 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Almouhamdeah",
+   "propertyName": "Apartment for Sale",
+   "slug": "apartment-10882-sqm-with-3-bedrooms-5972203",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Sale"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 450000,
+   "expectedRent": "",
+   "conversionPrice": 450000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 4209,
+   "districtId": 4209,
+   "district": "Almouhamdeah",
+   "cityId": 275,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-10882-متر-مربع-ب-3-غرف-5972203",
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "New"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "محمد عبد الحي الكتاني"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "1 / 7 / 48"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "843/2"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا يوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "24353"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "16/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "7773"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "3837"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed Few Hours ago",
+  "views": {
+   "count": 103,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

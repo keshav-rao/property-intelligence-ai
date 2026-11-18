@@ -1,0 +1,250 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/land-40447-sqm-facing-south-5968671",
+ "scraped_at": "2026-11-18T14:51:12+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 84,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5968671,
+  "updatedAt": "2026-11-12T09:54:37.367Z",
+  "publishedAt": "2026-11-12T09:41:33.365Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي الحساء في  مدينة المدينة المنورة",
+  "streetInfo": {
+   "streetWidth": 30
+  },
+  "fullDarReference": "110542-SAU-RE-030963",
+  "propIdentityTypeId": 95,
+  "darReference": "030963",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.54286509094266",
+   "lat": "24.354126266186846"
+  },
+  "monthlyRentEMI": 1859541,
+  "rizeMonthlyRentEMI": 1808826.17,
+  "ejariMonthlyRentEMI": 0,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 1910256,
+  "attributes": [
+   {
+    "key": "carpetArea",
+    "name": "Land Area",
+    "value": "404.47",
+    "image": "carpetarea.png",
+    "unit": "SQM",
+    "iconClass": "plot-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al-Hassa, Madinah",
+   "breadCrumbs": [],
+   "city": "Madinah",
+   "propertySubType": "Land",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>Land for Rent in Al-Hassa, Madinah</p><p>Land Area: 404.47 SQM</p><p> Land is located on  1 street, South East with 30 m width</p><p>Price: 20285901 SAR</p>",
+   "title": "Land 404.47 SQM Facing South",
+   "unitType": "SQM",
+   "possessionType": null,
+   "zone": "Al-Hassa",
+   "propertyName": "Land for Rent",
+   "slug": "land-40447-sqm-facing-south-5968671",
+   "territory": null,
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 20285901,
+   "conversionPrice": 20285901,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 4271,
+   "districtId": 4271,
+   "district": "Al-Hassa",
+   "cityId": 276,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "residential-land",
+   "alternateSlug": "أرض-40447-متر-مربع-واجهة-جنوبية-5968671",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 20285901,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South East"
+   },
+   {
+    "key": "propertyStreetWidth",
+    "label": "Street width",
+    "value": "30 m"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "عهد ابن مكرم"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "عقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "م / م / 1099المعدل"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "51"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لايوجد"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "42398"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "01/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "6541"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "4490"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "No"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "No"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 6 days ago",
+  "views": {
+   "count": 192,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

@@ -1,0 +1,282 @@
+{
+ "url": "https://wasalt.sa/en/property/rent/apartment-400-sqm-with-5-bedrooms-5970366",
+ "scraped_at": "2026-11-18T14:50:10+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": false,
+  "externalVideoLink": null,
+  "score": 93,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5970366,
+  "updatedAt": "2026-11-12T14:35:40.150Z",
+  "publishedAt": "2026-11-12T11:10:55.522Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  الروضة  بمدينة جدة . بدون رقم مخطط",
+  "streetInfo": {},
+  "fullDarReference": "318324-SAU-RE-142827",
+  "propIdentityTypeId": 95,
+  "darReference": "142827",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.16255957829491",
+   "lat": "21.567173782428615"
+  },
+  "monthlyRentEMI": 5042,
+  "rizeMonthlyRentEMI": 4904.17,
+  "ejariMonthlyRentEMI": 4995.83,
+  "isActiveRize": true,
+  "isActiveEjari": true,
+  "aqsatMonthlyRentEMI": 5179,
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 5,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "400",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Rawdhah, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 20410,
+     "title": "Apartments for Rent in Saudi",
+     "type": "link",
+     "slug": "apartments-for-rent-in-jeddah-ar-rawdah",
+     "url": "apartments-for-rent-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "rent/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=274",
+     "id": 20411,
+     "title": "Apartments for Rent in Jeddah",
+     "type": "link",
+     "slug": "apartments-for-rent-in-jeddah-ar-rawdah",
+     "url": "apartments-for-rent-in-jeddah"
+    },
+    {
+     "subtitle": "Al Rawdhah",
+     "reference_url": null,
+     "id": 20412,
+     "title": "Apartments for Rent in Ar Rawdah",
+     "type": "text",
+     "slug": "apartments-for-rent-in-jeddah-ar-rawdah",
+     "url": "apartments-for-rent-in-jeddah-ar-rawdah"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Apartment",
+   "furnishingType": null,
+   "facingType": null,
+   "description": "<p>\n\nApartment for Rent in Al Rawdhah, Jeddah</p><p>Built up Area: 400 SQM</p><p>The property has 5 bedrooms</p><p>Apartment has electricity and water Connections</p><p>Building year: 2015</p><p>Price: 55000 SAR</p>",
+   "title": "Apartment 400 SQM with 5 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Rawdhah",
+   "propertyName": "Apartment for Rent",
+   "slug": "apartment-400-sqm-with-5-bedrooms-5970366",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "For Rent"
+    }
+   ],
+   "propertyFor": "rent",
+   "salePrice": "",
+   "expectedRent": 55000,
+   "conversionPrice": 55000,
+   "conversionUnit": "SAR",
+   "otherCharges": {
+    "brokerage": "",
+    "securityDesposit": null
+   },
+   "expectedRentType": "/Year",
+   "expectedMonthlyRentType": "/Month",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2214,
+   "districtId": 2214,
+   "district": "Al Rawdhah",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-400-متر-مربع-ب-5-غرف-5970366",
+   "rentFreq": {
+    "yearly": {
+     "enCurrencyType": "SAR",
+     "default_freq": true,
+     "amount": 55000,
+     "arCurrencyType": "ر.س",
+     "freq": "yearly"
+    }
+   },
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "10+ years"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "3 Streets"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "ابن ابي القاسم"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "10"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "no"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23434"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "06/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "8070"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "4062"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Listed 5 days ago",
+  "views": {
+   "count": 151,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}

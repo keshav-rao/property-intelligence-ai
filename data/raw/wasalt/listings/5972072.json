@@ -1,0 +1,306 @@
+{
+ "url": "https://wasalt.sa/en/property/sale/apartment-with-2-bedrooms-5972072",
+ "scraped_at": "2026-11-18T14:49:48+00:00",
+ "details": {
+  "videoThumbnail": null,
+  "isVerified": false,
+  "external360Link": null,
+  "isAuction": false,
+  "isRegaProp": true,
+  "isUpdated": true,
+  "externalVideoLink": null,
+  "score": 95,
+  "isApproxLocation": false,
+  "videoUrl": [],
+  "reservation": null,
+  "id": 5972072,
+  "updatedAt": "2026-11-16T20:26:45.138Z",
+  "publishedAt": "2026-11-16T20:26:01.078Z",
+  "verificationStatus": {
+   "rega": {
+    "isPawned": false,
+    "obligationsOnTheProperty": ""
+   },
+   "wathiq": {
+    "isCondtrained": null,
+    "isHalt": null,
+    "isPawned": null,
+    "isTestament": null
+   }
+  },
+  "regaMojDesc": "حي  الصفا  بمدينة جدة .",
+  "streetInfo": {
+   "streetWidth": null
+  },
+  "fullDarReference": "643830-SAU-BU-260086",
+  "propIdentityTypeId": 95,
+  "darReference": "260086",
+  "compoundDetails": {},
+  "location": {
+   "lon": "39.208415439366206",
+   "lat": "21.585703904023255"
+  },
+  "attributes": [
+   {
+    "key": "noOfBedrooms",
+    "name": "Bedrooms",
+    "value": 2,
+    "image": "noofbedrooms.png",
+    "iconClass": "bedroom"
+   },
+   {
+    "key": "noOfBathrooms",
+    "name": "Bathrooms",
+    "value": 2,
+    "image": "noofbathrooms.png",
+    "iconClass": "bathroom"
+   },
+   {
+    "key": "noOfLivingrooms",
+    "name": "Living Room",
+    "value": 1,
+    "image": "nooflivingrooms.png",
+    "iconClass": "apartment"
+   },
+   {
+    "key": "builtUpArea",
+    "name": "Built-Up Area",
+    "value": "625",
+    "image": "builtuparea.png",
+    "unit": "SQM",
+    "iconClass": "builtup-area"
+   }
+  ],
+  "iconBaseURL": "https://assets.wasalt.com",
+  "managedById": 55,
+  "propertyRegionId": 56,
+  "propertyInfo": {
+   "currencyType": "SAR",
+   "country": "Saudi Arabia",
+   "propertyMainType": "Residential",
+   "address": "Al Safa, North Jeddah, Jeddah",
+   "breadCrumbs": [
+    {
+     "subtitle": "Saudi Arabia",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment",
+     "id": 16729,
+     "title": "Apartments for Sale in Saudi",
+     "type": "link",
+     "slug": "apartments-for-sale-in-jeddah-as-safa",
+     "url": "apartments-for-sale-in-saudi-arabia"
+    },
+    {
+     "subtitle": "Jeddah",
+     "reference_url": "sale/search?type=residential&countryId=1&property_types=39&propertyTypeData=apartment&cityId=274",
+     "id": 16730,
+     "title": "Apartments for Sale in Jeddah",
+     "type": "link",
+     "slug": "apartments-for-sale-in-jeddah-as-safa",
+     "url": "apartments-for-sale-in-jeddah"
+    },
+    {
+     "subtitle": "Al Safa",
+     "reference_url": null,
+     "id": 16731,
+     "title": "Apartments for Sale in As Safa",
+     "type": "text",
+     "slug": "apartments-for-sale-in-jeddah-as-safa",
+     "url": "apartments-for-sale-in-jeddah-as-safa"
+    }
+   ],
+   "city": "Jeddah",
+   "propertySubType": "Apartment",
+   "furnishingType": "Un-Furnished",
+   "facingType": null,
+   "description": "<p>Un-Furnished\n\nApartment for Sale in Al Safa, Jeddah</p><p>Built up Area: 625 SQM</p><p>Property Floor : 3</p><p> Apartment is located on  1 street</p><p>The property has 5 floors, 2 bedrooms, 2 bathrooms, 1 living room</p><p>Apartment has electricity and water Connections</p><p>Building year: 2026</p><p>Apartment is: Un-Furnished</p><p>Property amenities:</p><p>&nbsp; - &nbsp; Indoor Staircase</p><p>&nbsp; - &nbsp; Indoor Parking</p><p>Property fixtures:</p><p>&nbsp; - &nbsp; Split AC</p><p>&nbsp; - &nbsp; Elevator</p><p>Price: 276000 SAR</p>",
+   "title": "Apartment with 2 Bedrooms",
+   "unitType": "SQM",
+   "possessionType": "Residential",
+   "zone": "Al Safa",
+   "propertyName": "Apartment for Sale",
+   "slug": "apartment-with-2-bedrooms-5972072",
+   "territory": "North Jeddah",
+   "tags": [
+    {
+     "name": "For Sale"
+    },
+    {
+     "name": "Un-Furnished"
+    }
+   ],
+   "propertyFor": "sale",
+   "salePrice": 276000,
+   "expectedRent": "",
+   "conversionPrice": 276000,
+   "conversionUnit": "SAR",
+   "projectId": null,
+   "countryId": 1,
+   "districId": 2225,
+   "districtId": 2225,
+   "district": "Al Safa",
+   "cityId": 274,
+   "mainTypeId": 2,
+   "statusTypeId": 505,
+   "statusTypeSlug": "approved",
+   "propertySubTypeSlug": "apartment",
+   "alternateSlug": "شقة-بغرفتين-5972072",
+   "rentFreq": "",
+   "propertyMainTypeSlug": "residential",
+   "regaGuaranteeDuration": "-",
+   "averageSalePriceLowerPercentage": null
+  },
+  "priceValuation": {
+   "lower_bound": {},
+   "upper_bound": {}
+  },
+  "barter": {
+   "isEnabled": false,
+   "sellerNote": null
+  },
+  "additionalAttributes": [
+   {
+    "key": "propertyMainType",
+    "label": "Property usage",
+    "value": "Residential"
+   },
+   {
+    "key": "completionYear",
+    "label": "Age",
+    "value": "<1 year"
+   },
+   {
+    "key": "propertyFacade",
+    "label": "Facade",
+    "value": "South East"
+   },
+   {
+    "key": "street",
+    "label": "Street",
+    "value": "قيس بن صعصعه"
+   },
+   {
+    "key": "adSource",
+    "label": "Ad source",
+    "value": "الهيئة العامة للعقار"
+   },
+   {
+    "key": "planNumber",
+    "label": "Plan number",
+    "value": "191 / ب"
+   },
+   {
+    "key": "landNumber",
+    "label": "Land number",
+    "value": "20"
+   },
+   {
+    "key": "obligations",
+    "label": "Other obligations on the property",
+    "value": "لا"
+   },
+   {
+    "key": "zipCode",
+    "label": "Postal Code",
+    "value": "23455"
+   },
+   {
+    "key": "regaAdvLicDate",
+    "label": "License Issuance Date",
+    "value": "14/11/2026"
+   },
+   {
+    "key": "additionalNumber",
+    "label": "Additional No.",
+    "value": "3596"
+   },
+   {
+    "key": "buildingNumber",
+    "label": "Building No.",
+    "value": "6742"
+   },
+   {
+    "key": "electricityMeter",
+    "label": "Electricity",
+    "value": "Yes"
+   },
+   {
+    "key": "waterMeter",
+    "label": "Water",
+    "value": "Yes"
+   },
+   {
+    "key": "noOfFloors",
+    "label": "Total Floors",
+    "value": 5
+   },
+   {
+    "key": "floorNumber",
+    "label": "Property Floor",
+    "value": 3
+   },
+   {
+    "key": "furnishingType",
+    "label": "Furniture",
+    "value": "Un-Furnished"
+   },
+   {
+    "key": "noOfParkings",
+    "label": "Number of Parkings",
+    "value": 1
+   },
+   {
+    "key": "borderEast",
+    "label": "Border from East",
+    "unit": "m"
+   },
+   {
+    "key": "borderWest",
+    "label": "Border from West",
+    "unit": "m"
+   },
+   {
+    "key": "borderNorth",
+    "label": "Border from North",
+    "unit": "m"
+   },
+   {
+    "key": "borderSouth",
+    "label": "Border from South",
+    "unit": "m"
+   },
+   {
+    "key": "lengthEast",
+    "label": "Length from East",
+    "unit": "m"
+   },
+   {
+    "key": "lengthWest",
+    "label": "Length from West",
+    "unit": "m"
+   },
+   {
+    "key": "lengthNorth",
+    "label": "Length from North",
+    "unit": "m"
+   },
+   {
+    "key": "lengthSouth",
+    "label": "Length from South",
+    "unit": "m"
+   },
+   {
+    "key": "regaGuaranteeDuration",
+    "label": "Guarantees and their Duration",
+    "value": "-",
+    "fullWidth": true
+   }
+  ],
+  "ageOfListing": "Updated 1 day ago",
+  "views": {
+   "count": 23,
+   "days": 7
+  }
+ },
+ "amenities": [],
+ "fittings": []
+}
