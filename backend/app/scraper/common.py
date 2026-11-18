@@ -18,9 +18,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 
+from app.config import get_data_dir
+
 USER_AGENT = "PropertyIntelligenceResearchBot/1.0 (educational RAG demo; low-rate; public pages only)"
-REPO_ROOT = Path(__file__).resolve().parents[3]
-RAW_DIR = REPO_ROOT / "data" / "raw"
+RAW_DIR = get_data_dir() / "raw"
 
 CHALLENGE_MARKERS = ("_Incapsula_Resource", "cf-challenge", "captcha-delivery", "g-recaptcha", "hcaptcha")
 

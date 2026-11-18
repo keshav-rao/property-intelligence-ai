@@ -8,8 +8,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
-    build-essential \
     && rm -rf /var/lib/apt/lists/*
+
+# Install PyTorch CPU-only first for lightweight container footprint and fast build
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

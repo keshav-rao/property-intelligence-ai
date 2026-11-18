@@ -11,9 +11,10 @@ import re
 from pathlib import Path
 from typing import Any
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
-RAW_DIR = REPO_ROOT / "data" / "raw"
-PROCESSED_DIR = REPO_ROOT / "data" / "processed"
+from app.config import get_data_dir
+
+RAW_DIR = get_data_dir() / "raw"
+PROCESSED_DIR = get_data_dir() / "processed"
 
 
 def clean_html(text: str | None) -> str:

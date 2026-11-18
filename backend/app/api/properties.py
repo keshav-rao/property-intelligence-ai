@@ -6,11 +6,11 @@ from pathlib import Path
 from typing import Any
 from fastapi import APIRouter, HTTPException, Query
 
+from app.config import get_data_dir
 from app.schemas import PropertyItem
 
 router = APIRouter(prefix="/api/properties", tags=["Properties"])
-REPO_ROOT = Path(__file__).resolve().parents[3]
-PROPERTIES_FILE = REPO_ROOT / "data" / "processed" / "properties.json"
+PROPERTIES_FILE = get_data_dir() / "processed" / "properties.json"
 
 _properties_cache: list[dict] | None = None
 

@@ -8,9 +8,9 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from app.config import get_data_dir
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
-PROCESSED_DIR = REPO_ROOT / "data" / "processed"
+PROCESSED_DIR = get_data_dir() / "processed"
 
 
 def build_property_chunk(prop: dict) -> dict:

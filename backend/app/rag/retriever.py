@@ -8,11 +8,11 @@ import re
 from pathlib import Path
 from typing import Any
 
+from app.config import get_data_dir
 from app.rag.embeddings import embed_query
 from app.rag.vector_store import search_vector_store
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-CHUNKS_FILE = REPO_ROOT / "data" / "processed" / "chunks.json"
+CHUNKS_FILE = get_data_dir() / "processed" / "chunks.json"
 
 _cached_chunks: list[dict] | None = None
 

@@ -11,7 +11,7 @@ from pathlib import Path
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qmodels
 
-from app.config import settings
+from app.config import settings, get_data_dir
 from app.rag.embeddings import VECTOR_DIM
 
 _client: QdrantClient | None = None
@@ -26,7 +26,7 @@ def get_qdrant_client() -> QdrantClient:
     urls_to_try = [settings.qdrant_url, "http://localhost:6333"]
     for url in urls_to_try:
         try:
-            client = QdrantClient(url=url, timeout=3.0, check_compatibility=False)
+            client = QdrantClient(url=url, timeout=1.0, check_compatibility=False)
             client.get_collections()
             _client = client
             return _client
@@ -34,7 +34,7 @@ def get_qdrant_client() -> QdrantClient:
             continue
 
     # Priority 2: Local on-disk Qdrant storage (guarantees standalone operation without external service)
-    local_path = Path(__file__).resolve().parents[2] / "data" / "qdrant_storage"
+    local_path = get_data_dir() / "qdrant_storage"
     local_path.mkdir(parents=True, exist_ok=True)
     _client = QdrantClient(path=str(local_path), check_compatibility=False)
     return _client
