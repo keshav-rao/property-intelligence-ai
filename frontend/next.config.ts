@@ -1,3 +1,16 @@
 import type { NextConfig } from 'next';
-const nextConfig: NextConfig = { output: 'standalone' };
+
+const nextConfig: NextConfig = {
+  output: 'standalone',
+  async redirects() {
+    return [
+      {
+        source: '/overview',
+        destination: '/',
+        permanent: false,
+      },
+    ];
+  },
+};
+
 export default nextConfig;
