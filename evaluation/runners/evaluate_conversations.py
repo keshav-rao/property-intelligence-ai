@@ -5,6 +5,7 @@ and change-of-mind filter overrides across sequential turns.
 """
 from typing import Dict, Any, List
 import time
+# pyrefly: ignore[missing-import]
 import httpx
 
 def run_scenario(scenario: Dict[str, Any], base_url: str = "http://localhost:3000", client: httpx.Client = None) -> Dict[str, Any]:

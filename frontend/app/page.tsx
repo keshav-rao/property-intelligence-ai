@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import ChatWidget from '../components/ChatWidget';
+import SiteNav from '../components/SiteNav';
 import { getStats } from '../lib/api';
 
 const TRY = [
@@ -23,17 +23,23 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="page">
-      <section className="hero">
-        <div className="brandline">
-          <span className="dg">DarGlobal</span><span className="x">×</span><span className="ws">Wasalt</span>
-          <Link href="/admin/evaluation" style={{ marginLeft: 'auto', fontSize: '0.8rem', fontWeight: 600, color: 'var(--purple-700)', background: 'var(--purple-100)', padding: '4px 10px', borderRadius: '12px', textDecoration: 'none' }}>
-            Evaluation Suite (109 Tests) →
-          </Link>
+    <div className="site-shell">
+      <header className="site-header">
+        <div className="site-header-inner">
+          <div className="brandline-logo">
+            <span className="dg">DarGlobal</span>
+            <span className="x">×</span>
+            <span className="ws">Wasalt</span>
+          </div>
+          <SiteNav />
         </div>
-        <h1>
-          Find the right home, <em>in one conversation.</em>
-        </h1>
+      </header>
+
+      <main className="page">
+        <section className="hero">
+          <h1>
+            Find the right home, <em>in one conversation.</em>
+          </h1>
         <p className="intro">
           Property Intelligence AI brings DarGlobal&apos;s branded residences and Wasalt&apos;s Saudi listings into a single concierge.
           Start with a loose idea; it asks only what it needs, recommends real options and sends you to the right official page.
@@ -68,5 +74,6 @@ export default function Home() {
 
       <ChatWidget prompt={prompt} />
     </main>
+  </div>
   );
 }
