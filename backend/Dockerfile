@@ -1,5 +1,5 @@
 # Build context: repository root (needs ./data). See docker-compose.yml.
-FROM python:3.12-slim as base
+FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -11,19 +11,11 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
 
-FROM base as builder
-
 COPY backend/requirements.txt .
 RUN pip install -r requirements.txt
 
 # Bake the embedding model into the image so the container starts fast and works offline.
 RUN python -c "from fastembed import TextEmbedding; TextEmbedding('BAAI/bge-small-en-v1.5', cache_dir='/models')"
-
-FROM base
-
-# Copy pip packages from builder
-COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
-COPY --from=builder /models /models
 
 COPY backend/app ./app
 COPY data/raw/darglobal/projects_live.json ./data/raw/darglobal/projects_live.json
@@ -34,4 +26,4 @@ USER appuser
 
 EXPOSE 8000
 HEALTHCHECK --interval=20s --timeout=5s --start-period=40s --retries=3 CMD curl -fs http://localhost:8000/api/health || exit 1
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers", "--forwarded-allow-ips", "*"]
+CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers", "--forwarded-allow-ips", "*"]
