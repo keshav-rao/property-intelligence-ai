@@ -1,26 +1,35 @@
 # Build context: repository root (needs ./data). See docker-compose.yml.
-FROM python:3.12-slim
+FROM python:3.12-slim as base
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     FASTEMBED_CACHE_PATH=/models \
     DATA_DIR=/app/data \
-    HF_HUB_DISABLE_TELEMETRY=1
+    HF_HUB_DISABLE_TELEMETRY=1 \
+    PIP_NO_CACHE_DIR=1
 
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
 
+FROM base as builder
+
 COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Bake the embedding model into the image so the container starts fast and works offline.
 RUN python -c "from fastembed import TextEmbedding; TextEmbedding('BAAI/bge-small-en-v1.5', cache_dir='/models')"
+
+FROM base
+
+# Copy pip packages from builder
+COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
+COPY --from=builder /models /models
 
 COPY backend/app ./app
 COPY data/raw/darglobal/projects_live.json ./data/raw/darglobal/projects_live.json
 COPY data/raw/wasalt/snapshot.json ./data/raw/wasalt/snapshot.json
 
-RUN useradd -m appuser && mkdir -p /app/data/leads /app/data/qdrant_local && chown -R appuser /app/data /models
+RUN useradd -m appuser && mkdir -p /app/data/leads /app/data/qdrant_local && chown -R appuser:appuser /app/data /models
 USER appuser
 
 EXPOSE 8000
