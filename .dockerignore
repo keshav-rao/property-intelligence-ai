@@ -2,8 +2,9 @@ backend/.venv/
 frontend/.next/
 frontend/node_modules/
 .git/
-__pycache__/
+**/__pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env.local
+.env
+data/leads/
+data/qdrant_local/
+data/raw/wasalt/_capture/

@@ -12,3 +12,8 @@ backend/app/data/leads.jsonl
 qdrant_storage/
 data/qdrant_storage/
 .DS_Store
+
+# runtime data
+data/leads/
+data/qdrant_local/
+frontend/tsconfig.tsbuildinfo

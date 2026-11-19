@@ -1,189 +1,154 @@
 # Property Intelligence AI — DarGlobal × Wasalt
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Next.js](https://img.shields.io/badge/Next.js-15.2+-black?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Qdrant](https://img.shields.io/badge/Qdrant-Vector%20DB-dc2626?logo=qdrant&logoColor=white)](https://qdrant.tech/)
-[![OpenRouter](https://img.shields.io/badge/OpenRouter-Free%20Inference-6366f1)](https://openrouter.ai/)
-[![Docker](https://img.shields.io/badge/Docker-Containerised-2496ed?logo=docker&logoColor=white)](https://www.docker.com/)
+A conversational property concierge for two very different businesses:
 
-A production-style real estate intelligence assistant and hybrid conversational concierge trained on verified public records from **DarGlobal PLC** (luxury international developer) and **Wasalt** (leading Saudi real estate marketplace).
+- **DarGlobal** — an international luxury developer (branded residences in Saudi Arabia, the UAE, Oman, Qatar, Spain and the UK).
+- **Wasalt** — a Saudi property marketplace (homes to buy or rent, auctions, daily rentals, Matchmaker).
+
+A user can start with a vague idea, have a natural conversation, get real recommendations, compare options and land on the
+right official page or enquiry form, without feeling they are switching between two systems.
+
 
 ---
 
-## 1. System Architecture
+## What it does
+
+| Capability | How |
+|---|---|
+| **Hybrid conversation** | Type freely *or* tap quick replies. The bot remembers what you said (city, buy/rent, type, bedrooms, budget) and asks only for what's missing. Change your mind at any point ("show villas instead", "lower my budget", "start over"). |
+| **Recommendations** | Ranked property cards from DarGlobal's project pages and a dated Wasalt snapshot, plus a deep link to the *live*, filtered Wasalt search page for current inventory. Buyers in Riyadh/Jeddah also see relevant DarGlobal projects. |
+| **Project Q&A** | Ask about any of DarGlobal's 38 projects by name or nickname ("Les Vagues", "Trump Tower Dubai", "Neptune"). Answers are grounded in the official description. |
+| **Comparison** | Tick *Compare* on 2–3 cards, or ask "compare DG1 and Les Vagues". |
+| **Navigation** | Every link comes from an allow-list of verified official URLs (auctions, daily rentals, Matchmaker, list a property, investor relations, project pages). |
+| **Lead capture** | In-chat enquiry form with explicit consent, plus the official "register interest" page. Contact details never go to the AI model. |
+| **Honesty rules** | DarGlobal publishes no prices, so the bot says *price on request* instead of inventing one. Wasalt items are labelled as a snapshot with a link to the live listing. Unknown questions get "I don't have that", not a guess. |
+
+## Architecture
 
 ```mermaid
-flowchart TD
-    subgraph DataCollection["Phase 1: Web Scraping & Ingestion"]
-        DG["DarGlobal Portal & LSE Filings<br/>(darglobal.co.uk)"] -->|Polite Scraper & Robots.txt| DG_Raw["data/raw/darglobal/"]
-        WS["Wasalt Marketplace<br/>(wasalt.sa)"] -->|__NEXT_DATA__ Scraper & PII Strip| WS_Raw["data/raw/wasalt/"]
-        DG_Raw & WS_Raw --> Normalize["Data Normalizer<br/>(app.ingestion.normalize)"]
-        Normalize --> Chunker["Structured Chunker<br/>(app.ingestion.chunker)"]
-        Chunker --> Embedder["Sentence Transformers<br/>(BAAI/bge-small-en-v1.5)"]
-        Embedder --> Qdrant[("Qdrant Vector DB<br/>(Collection: property_knowledge)")]
-    end
-
-    subgraph BackendAPI["Phase 2: FastAPI Backend Engine"]
-        UserQuery["User Chat Query"] --> IntentRouter["Intent & Entity Detector<br/>(Platform, City, Purpose, Comparison)"]
-        IntentRouter --> HybridRetriever["Hybrid Retriever<br/>(Dense Vector Search + Lexical Boost)"]
-        Qdrant -.->|Top Semantic Matches| HybridRetriever
-        HybridRetriever --> ContextAssembly["Context & Prompt Assembly<br/>(Strict Grounding & Source Tracking)"]
-        ContextAssembly --> OpenRouter["OpenRouter Client<br/>(nvidia/nemotron-3.5-lightning:free<br/>+ Active Model Fallbacks)"]
-        OpenRouter --> API_Response["Structured Chat Response<br/>(Answer, Sources, Property Cards, Dest Links)"]
-    end
-
-    subgraph FrontendApp["Phase 3: Next.js 15 Concierge UI"]
-        API_Response --> UI_Chat["Interactive Chat Stream"]
-        API_Response --> UI_Cards["Property Cards & Badges"]
-        API_Response --> UI_Compare["Side-by-Side Comparison Matrix"]
-        API_Response --> UI_Sources["Verified Source Attribution Badges"]
-    end
+flowchart LR
+  U[Browser<br/>Next.js widget] -->|/api/chat/stream SSE| API[FastAPI]
+  subgraph API[FastAPI backend]
+    NLU[nlu.py<br/>intent + slots, rules] --> DLG[dialogue.py<br/>session state, workflow,<br/>ranking, compare, leads]
+    DLG --> RAG[rag.py<br/>BM25 + dense hybrid]
+    DLG --> DEST[destinations.py<br/>verified URLs]
+    DLG --> LLM[llm.py<br/>OpenRouter, streaming,<br/>fallback models]
+  end
+  RAG --> Q[(Qdrant<br/>bge-small embeddings)]
+  DLG --> CAT[catalog.py<br/>38 DarGlobal projects<br/>199 Wasalt listings]
+  LLM --> OR[OpenRouter<br/>nemotron-3.5-lightning:free]
 ```
 
----
+**Design choice: rules decide, the LLM phrases.** Intent, filters, the next question, ranking, links and forms are decided by
+deterministic code, so behaviour is testable and a slow or failing free model can never break search or lead capture. The LLM
+(Nemotron 3.5 Lightning, reasoning disabled for ~1–3 s answers) only writes the wording, from a context block that contains the
+facts it may use. If every model fails, a deterministic answer is streamed instead.
 
-## 2. Technology Stack
+| Layer | Tech |
+|---|---|
+| Frontend | Next.js 15 (App Router), React 19, TypeScript, hand-written CSS (light theme), SSE streaming |
+| Backend | FastAPI, Pydantic v2 |
+| Retrieval | Qdrant + `BAAI/bge-small-en-v1.5` via fastembed (ONNX, CPU) + BM25, metadata filters, exact-name boost |
+| LLM | OpenRouter `nvidia/nemotron-3.5-lightning:free`, fallbacks configurable |
+| Deploy | Docker Compose (Qdrant, backend, frontend) + Caddy for automatic HTTPS |
 
-| Layer | Technology | Rationale |
+### API
+
+| Endpoint | Purpose |
+|---|---|
+| `POST /api/chat/stream` | Chat turn as Server-Sent Events: `meta` (cards, filters, links, quick replies), `token`s, `done` |
+| `POST /api/chat` | Same turn as one JSON response |
+| `POST /api/search`, `POST /api/recommendations` | Filter / rank the catalogue directly |
+| `POST /api/compare` | Comparison table for 2–3 item ids |
+| `GET /api/destinations` | The approved official links |
+| `POST /api/leads` | Enquiry with consent (stored locally in this demo) |
+| `GET /api/health`, `GET /api/stats` | Status, retrieval backend, data coverage |
+
+Response contract (abridged):
+
+```json
+{
+  "answer": "Here are 5 matches for 3-bedroom apartments for sale in Riyadh up to SAR 1.2M…",
+  "intent": {"name": "search", "platform": "wasalt", "step": "results"},
+  "filters": {"purpose": "sale", "city": "riyadh", "property_type": "apartment", "bedrooms": 3, "budget_max": 1200000},
+  "recommendations": [{"title": "3-Bed Apartment, 104 sqm in Olaishah", "price_label": "SAR 849,000", "url": "https://wasalt.sa/en/property/sale/…"}],
+  "actions": [{"label": "Live apartments for sale in Riyadh on Wasalt", "url": "https://wasalt.sa/en/apartments-for-sale-in-riyadh"}],
+  "sources": [{"title": "Wasalt.sa public listings (snapshot 19 Nov 2026)", "url": "https://wasalt.sa/en"}],
+  "suggested_replies": ["Show villas instead", "Lower my budget", "Compare the top two", "Talk to an advisor"],
+  "ui": null
+}
+```
+
+## Data and how it was collected
+
+| Source | What | How |
 |---|---|---|
-| **Frontend** | Next.js 15 (App Router), Tailwind CSS, TypeScript | High-performance, responsive luxury real estate concierge interface |
-| **Backend** | Python 3.11+, FastAPI, Pydantic v2 | Asynchronous high-throughput REST API with strict input/output validation |
-| **Vector DB** | Qdrant (v1.11+) | Fast HNSW vector indexing with payload-level keyword filtering (platform, city, purpose) |
-| **Embeddings** | `BAAI/bge-small-en-v1.5` (384 dimensions) | State-of-the-art retrieval embedding model running locally with high speed |
-| **LLM Provider** | OpenRouter Free Catalog (`nvidia/nemotron-3.5-lightning:free`) | High-capacity reasoning model with zero cost and automatic failover |
-| **Scraping** | `httpx`, `BeautifulSoup4`, Python `urllib` | Strict robots.txt obedience, request throttling, and anti-bot challenge detection |
-| **Containerisation** | Docker & Docker Compose | Multi-stage production container build with health checks and persistent storage |
+| darglobal.co.uk | 38 projects: name, brand partner, location, type, bedrooms, sizes, completion date, status, image, official URL, description | The site is behind an Imperva bot challenge, which we do not bypass. The project index and pages were read in a normal browser session; the index is parsed from the page's own `__NEXT_DATA__` (`backend/app/scraper/darglobal_index.py`). **No prices**: DarGlobal does not publish them. |
+| wasalt.sa | 199 listings across Riyadh, Jeddah, Dammam, Al Khobar, Makkah and Madinah (sale/rent, apartments/villas/land) | Wasalt's robots.txt allows category pages and its llms.txt allows recommending public listings with attribution at a moderate crawl rate. It answers 403 to a self-identified bot, and we don't disguise bots as browsers, so 26 category pages were read in a normal browser session at a human pace. Only listing facts were kept (no owner, broker or phone fields). See `backend/app/scraper/build_wasalt_snapshot.py`. |
+| Knowledge base | 9 short documents (company overviews, brand partners, AIDA, auctions, Matchmaker, daily rentals, data notes) | Written only from statements on the official pages, each with its source URL (`backend/app/knowledge.py`). |
 
----
+Data-quality rules applied to the Wasalt snapshot: apartment "built-up areas" over 600 sqm (usually the plot area) are dropped,
+rents under SAR 6,000/year (usually a daily or monthly figure in the yearly field) are hidden, and sale prices outside
+SAR 50k–200M are treated as typos.
 
-## 3. Data Collection & Ethical Scraping Policy
+## Run it locally
 
-The system collects and normalizes distinct information from both platforms:
+Requirements: Python 3.11+, Node 20+, an OpenRouter API key. Docker is optional.
 
-### DarGlobal vs Wasalt Core Differentiation:
-- **DarGlobal (Luxury Property Developer)**:
-  - Spun off from Saudi developer Dar Al Arkan; listed on London Stock Exchange (**LSE: DAR**), CEO Ziad El Chaar.
-  - Develops ultra-luxury co-branded residences partnering with **Automobili Lamborghini** (*Tierra Viva* and *Painite* in Spain), **Pagani** (*DaVinci Tower* in Dubai), **The Trump Organization** (*Trump Mansions* Wadi Safar Riyadh, *Trump Tower* Jeddah, *AIDA* Oman, *Trump Tower* Dubai), **Aston Martin** (*The Astera*), **Elie Saab** (*Les Vagues* in Qatar), **Missoni** (*Urban Oasis* in Dubai, *Marea* in Spain), **Mouawad** ($234.6M luxury development in Riyadh), and **W Hotels / Marriott**.
-  - Serves high-net-worth investors seeking vacation homes, capital growth, and Golden Visa / residency (UAE, Spain, Oman).
-- **Wasalt (Saudi Real Estate Marketplace)**:
-  - Leading Saudi marketplace portal (`wasalt.sa`) connecting buyers, tenants, and licensed brokers.
-  - Covers Riyadh, Jeddah, Dammam, Khobar, Makkah, Madinah with individual property listings (apartments, villas, land), daily rentals, long-term leases, and market price guides.
-
-### Ethical Scraping Compliance:
-1. **Robots.txt & llms.txt Compliance**: Wasalt permits public listing content; contact/advertiser details are stripped before writing to disk.
-2. **Anti-Bot Challenge Handling**: Direct HTML requests to `darglobal.co.uk` return an Incapsula bot challenge. In strict compliance with ethical AI scraping rules, **anti-bot challenges are never bypassed or solved**. Data is gathered from official sitemaps, LSE disclosures, and verified public project releases.
-3. **Traceability**: Every record preserves its original URL and ISO scrape timestamp.
-
-### Dataset Volume:
-- **108 Total Structured Properties** (27 DarGlobal luxury projects + 81 Wasalt property listings)
-- **18 Knowledge Documents** (Corporate profiles, FAQs, market guides, terms)
-- **138 Total Indexed Vector Chunks** in Qdrant
-
----
-
-## 4. Key Engineering Features
-
-1. **Strict Context Grounding**:
-   - The LLM is instructed to answer strictly using retrieved context.
-   - If an entity or question is outside the verified dataset (e.g. asking for properties on Mars or fake partnerships), the system explicitly states that the data is not available.
-2. **Hybrid Vector & Lexical Retrieval**:
-   - Combines 384-dimensional dense semantic vectors with lexical keyword boosts (e.g. boosting exact hits on "Neptune", "Mouawad", "DaVinci", "Tierra Viva").
-3. **Structured Property Cards & Comparison**:
-   - The chat returns structured property metadata alongside prose.
-   - Users can select up to 4 properties to view a side-by-side comparison matrix (Price, Location, SQM, Bedrooms, Brand Partner, Amenities).
-4. **Source Attribution**:
-   - Every claim is tied to verified URLs with platform badges and scrape timestamps.
-5. **OpenRouter Resilience**:
-   - Automated retry handling on rate-limits (HTTP 429) with fallback across active free models (`google/gemma-4-31b-it:free`, `liquid/lfm-3-1.7b:free`).
-
----
-
-## 5. Quick Start (Local Development)
-
-### Prerequisites:
-- Python 3.11+
-- Node.js 20+
-- Qdrant (running locally on port 6333 or via Docker)
-
-### 1. Configure Environment:
 ```bash
-cp .env.example .env
-# Edit .env and supply your OPENROUTER_API_KEY
+cp .env.example .env            # then set OPENROUTER_API_KEY
 ```
 
-### 2. Backend Setup:
+**Without Docker** (Qdrant runs embedded on disk):
+
 ```bash
-# In backend virtual environment:
-pip install -r backend/requirements.txt
-
-# Run polite scraper (optional, raw data is already pre-collected):
-python -m app.scraper.wasalt
-python -m app.scraper.darglobal
-
-# Run ingestion & indexing pipeline:
-python -m app.ingestion.indexer
-
-# Start FastAPI server:
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+cd backend
+python -m venv .venv && .venv/Scripts/activate      # macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --port 8000
 ```
-API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)  
-Health Check: [http://localhost:8000/health](http://localhost:8000/health)
 
-### 3. Frontend Setup:
 ```bash
 cd frontend
 npm install
-npm run dev
+npm run dev                     # http://localhost:3000  (proxies /api to :8000)
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
-
-## 6. Docker Containerisation
-
-The entire solution is containerised with Docker Compose:
+**With Docker:**
 
 ```bash
-# Build and run all services (backend, frontend, qdrant):
-docker compose up --build
+docker compose up --build       # http://localhost:3000
 ```
 
-Services started:
-- **Frontend**: `http://localhost:3000`
-- **Backend API**: `http://localhost:8000`
-- **Qdrant Vector DB**: `http://localhost:6333`
+## Deploy to a VPS with HTTPS
 
-*Note: If port 8000 or 3000 is occupied by other containers on your machine, you can override ports in `.env` (e.g. `BACKEND_PORT=8001`, `FRONTEND_PORT=3001`).*
+1. Create an Ubuntu VPS (2 vCPU / 4 GB is enough) and point a DNS **A record** (e.g. `chat.yourdomain.com`) at its IP.
+2. Push this repo to GitHub, then on the server:
 
----
-
-## 7. Automated Evaluation & Benchmark Results
-
-Run the automated benchmark suite:
 ```bash
-python -m eval.run_eval
+DOMAIN=chat.yourdomain.com REPO=https://github.com/<you>/property-intelligence-ai.git bash deploy/setup-vps.sh
 ```
 
-The evaluation executes **25 test cases** across 12 categories:
-- **Retrieval Accuracy**: 100.0%
-- **Answer Correctness**: 100.0%
-- **Hallucination Avoidance (Negative Tests)**: 100.0%
-- **Source Attribution Rate**: 100.0%
-- **Average Latency**: ~7.8s (including dense vector search & OpenRouter free inference)
+The script installs Docker, clones the repo, asks you to put `OPENROUTER_API_KEY` in `.env`, then starts Qdrant, the backend,
+the frontend and Caddy. Caddy obtains a Let's Encrypt certificate automatically and serves `https://chat.yourdomain.com`
+(`/api/*` → FastAPI with streaming, everything else → Next.js).
 
-Detailed results and per-test logs are recorded in `eval/evaluation_results.json`.
+## Quality
 
----
+```bash
+cd backend && python -m pytest -q          # 23 behaviour tests, no LLM needed
+python eval/run_eval.py                    # 18 end-to-end conversations against the running API
+```
 
-## 8. API Reference
+Latest local run (`eval/evaluation_results.json`): **18/18 conversations passed**, 15 answers written by the LLM, average
+**0.9 s per turn**. Cases cover guided search, one-shot search, rentals, changing your mind, DarGlobal by brand and country,
+project questions, price honesty, comparisons, navigation, knowledge questions, lead capture, privacy and out-of-scope questions.
 
-| Endpoint | Method | Description |
-|---|---|---|
-| `/health` | `GET` | Health status, active OpenRouter model, Qdrant collection size |
-| `/api/chat` | `POST` | Core RAG chat completion endpoint with sources & property cards |
-| `/api/properties` | `GET` | Filter properties by platform, city, purpose, property type, or search |
-| `/api/properties/{id}` | `GET` | Retrieve single property record |
-| `/api/compare` | `POST` | Generate side-by-side comparison for selected property IDs |
-| `/api/destinations` | `GET` | Verified official destination portals registry |
-| `/api/stats` | `GET` | Dataset summary (counts of listings, projects, cities, developers) |
-| `/api/leads` | `POST` | Demo-safe consent-gated lead capture |
+## Privacy and limits
+
+- OpenRouter's free endpoints may log prompts, so names, emails and phone numbers are stripped before anything reaches the model;
+  typed contact details trigger the consent form instead.
+- Enquiries are stored in `data/leads/leads.jsonl` in this demo and are **not** sent to DarGlobal or Wasalt.
+- Sessions live in memory (single instance). A Redis session store would be the next step for horizontal scaling.
+- The Wasalt data is a snapshot from 19 Nov 2026; the bot always links to the live Wasalt page for current prices and availability.
+- Independent assessment project; not affiliated with DarGlobal or Wasalt.
