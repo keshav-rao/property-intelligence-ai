@@ -39,7 +39,7 @@ services:
     profiles: ["https"]
     restart: unless-stopped
     environment:
-      DOMAIN: ${DOMAIN:?Set DOMAIN to your public hostname}
+      DOMAIN: ${DOMAIN:-localhost}
     ports:
       - "80:80"
       - "443:443"

@@ -9,8 +9,8 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 # Where Next.js forwards /api/* (used when no reverse proxy sits in front).
 ARG BACKEND_URL=http://backend:8000
-ENV BACKEND_URL=$BACKEND_URL NEXT_TELEMETRY_DISABLED=1
-RUN npm run build
+ENV BACKEND_URL=$BACKEND_URL NEXT_TELEMETRY_DISABLED=1 NODE_OPTIONS=--max-old-space-size=2048
+RUN npm run build || (npm install -g npm@latest && npm run build)
 
 FROM node:22-alpine AS runner
 WORKDIR /app
