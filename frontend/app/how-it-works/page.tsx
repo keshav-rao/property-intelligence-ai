@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 /* ------------------------------------------------------------------ content you can edit
    To show your own architecture diagram, put the image in frontend/public/ (e.g. public/architecture.png)
    and set ARCH_DIAGRAM to its path. Until then a sized placeholder is shown. */
-const ARCH_DIAGRAM: string | null = null; // e.g. '/architecture.png'
+const ARCH_DIAGRAM: string | null = '/architecture.png';
 
 /** Numbers from evaluation/results/evaluation_report.json (109 cases) and eval/evaluation_results.json (18 live-LLM conversations). */
 const KPIS = [
