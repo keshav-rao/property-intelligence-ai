@@ -1,11 +1,12 @@
 FROM node:22-alpine AS deps
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN npm ci --only=production && npm cache clean --force
 
 FROM node:22-alpine AS builder
 WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+COPY package.json package-lock.json ./
+RUN npm ci && npm cache clean --force
 COPY . .
 # Where Next.js forwards /api/* (used when no reverse proxy sits in front).
 ARG BACKEND_URL=http://backend:8000
