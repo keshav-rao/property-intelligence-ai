@@ -483,7 +483,7 @@ def service_turn(s: Session, text: str, reply: dict, svc: str) -> tuple[dict, li
 def lead_turn(s: Session, reply: dict) -> dict:
     f = s.filters
     project = by_id(s.last_project) if s.last_project else None
-    platform = "darglobal" if project else (platform_for(f) or "darglobal")
+    platform = f.get("platform") or ("darglobal" if project else (platform_for(f) or "darglobal"))
     interest = project["title"] if project else (describe_filters(f) if f else "")
     reply["intent"] = {"name": "lead", "platform": platform}
     reply["answer"] = ("I can pass your details to an advisor. Share how they should reach you below; nothing is sent until "
@@ -609,8 +609,8 @@ def handle(message: str, session_id: str | None = None, compare_ids: list[str] |
     if intent == "project_info":
         slots = {k: v for k, v in slots.items() if k in ("project_id",)}
     elif intent in ("question", "service", "compare", "lead", "greeting", "thanks"):
-        # side questions don't rewrite the search the user is building
-        slots = {k: v for k, v in slots.items() if k in ("project_id", "service")}
+        # side questions don't rewrite the search the user is building, but preserve explicit platform mentions
+        slots = {k: v for k, v in slots.items() if k in ("project_id", "service", "platform")}
         s.awaiting = None
     changed = merge(s, slots, intent)
     reply["filters"] = public_filters(s)

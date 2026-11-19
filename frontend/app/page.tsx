@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import ChatWidget from '../components/ChatWidget';
 import { getStats } from '../lib/api';
 
@@ -26,6 +27,9 @@ export default function Home() {
       <section className="hero">
         <div className="brandline">
           <span className="dg">DarGlobal</span><span className="x">×</span><span className="ws">Wasalt</span>
+          <Link href="/admin/evaluation" style={{ marginLeft: 'auto', fontSize: '0.8rem', fontWeight: 600, color: 'var(--purple-700)', background: 'var(--purple-100)', padding: '4px 10px', borderRadius: '12px', textDecoration: 'none' }}>
+            Evaluation Suite (109 Tests) →
+          </Link>
         </div>
         <h1>
           Find the right home, <em>in one conversation.</em>

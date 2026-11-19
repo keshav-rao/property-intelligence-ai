@@ -126,6 +126,11 @@ def parse(text: str) -> dict:
         slots["platform"] = "darglobal"
     if re.search(r"\bwasalt\b", t):
         slots["platform"] = "wasalt" if "platform" not in slots else None
+    if "platform" not in slots:
+        if re.search(r"\b(property agent|wasalt agent|real estate agent|contact an agent)\b", t):
+            slots["platform"] = "wasalt"
+        elif re.search(r"\bprojects?\b", t) and not re.search(r"\bwasalt\b", t):
+            slots["platform"] = "darglobal"
 
     # purpose
     if re.search(r"\b(daily|per night|short stay)\b", t):
@@ -143,7 +148,12 @@ def parse(text: str) -> dict:
             slots["country"] = v
             break
     for pat, ptype in TYPE_WORDS:
-        if re.search(pat, t):
+        m = re.search(pat, t)
+        if m:
+            start = m.start()
+            prefix = t[max(0, start - 12):start]
+            if re.search(r"\b(not|no|without|instead of)\s+(?:an?\s+)?$", prefix):
+                continue
             slots["property_type"] = ptype
             break
     beds = parse_bedrooms(t)

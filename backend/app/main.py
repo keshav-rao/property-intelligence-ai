@@ -18,6 +18,7 @@ import logging
 import re
 import uuid
 from datetime import datetime, timezone
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -235,3 +236,17 @@ def health():
 @app.get("/api/stats")
 def api_stats():
     return stats()
+
+
+@app.get("/api/evaluation/report")
+def api_evaluation_report():
+    candidates = [
+        settings.data_path / "evaluation_report.json",
+        Path("evaluation/results/evaluation_report.json"),
+        Path("/app/data/evaluation_report.json"),
+    ]
+    for p in candidates:
+        if p.exists():
+            with open(p, "r", encoding="utf-8") as f:
+                return json.load(f)
+    raise HTTPException(404, "Evaluation report not found. Run evaluation suite first.")
