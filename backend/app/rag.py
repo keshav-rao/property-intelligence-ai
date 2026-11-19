@@ -99,6 +99,18 @@ def init() -> None:
         docs = build_documents()
         _state["docs"] = docs
         _state["bm25"] = BM25([d["text"] for d in docs])
+
+        # Use lightweight BM25 retrieval on memory-constrained hosting.
+        if os.getenv("DISABLE_DENSE_RETRIEVAL", "").lower() in ("1", "true", "yes"):
+            log.warning("Dense retrieval disabled. Using BM25 only.")
+            _state.update(
+                ready=True,
+                client=None,
+                embedder=None,
+                error="Dense retrieval disabled by configuration",
+            )
+            return
+
         try:
             from fastembed import TextEmbedding
             from qdrant_client import models

@@ -46,6 +46,17 @@ async def startup() -> None:
     asyncio.get_running_loop().run_in_executor(None, rag.init)
 
 
+@app.get("/")
+@app.head("/")
+def root():
+    return {
+        "status": "ok",
+        "service": "Property Intelligence AI Backend",
+        "docs": "/docs",
+        "health": "/api/health",
+    }
+
+
 # ----------------------------------------------------------------------------- schemas
 
 
